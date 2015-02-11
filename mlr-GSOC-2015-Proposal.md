@@ -24,8 +24,8 @@ http://berndbischl.github.io/mlr/tutorial/html/tune/index.html
 But it also has some current drawbacks and options for strong improvements, see the list of tasks below.
 
 **Related work:** 
-<Add section from our paper?>
-<Mention caret tuning?>
+* Add section from our paper?
+* Mention caret tuning?
 
 **Potential tasks:** 
 * Defaults of Learner parameters can only be static constants. Allowing for data-dependent functions     would be much better. Eg for and SVM I might want to have the default function
