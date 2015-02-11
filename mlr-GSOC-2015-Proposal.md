@@ -13,7 +13,11 @@ b) We are willing to work with students and mentor other projects which deal wit
 mlr is a powerful package for general-purpose machine learning in R. Read more details on it here and in its tutorial:
 https://github.com/berndbischl/mlr
 
-mlr already contains a very powerful parameter description system for machine learning methods, which is based on our ParamHelpers package to a large extend. You can introduce yourself to it here:
+mlr already contains a very powerful parameter description system for machine learning methods, which is based on our ParamHelpers package:
+
+https://github.com/berndbischl/ParamHelpers
+
+You can study how this are used in Learner parameter definition here:
 
 http://berndbischl.github.io/mlr/tutorial/html/create_learner/index.html
 
