@@ -5,21 +5,23 @@ b) We are willing to work with students and mentor other projects which deal wit
 "mlr - Machine Learning in R" if students have a different preference for another topic in machine learning / the software.
 **Students then need to approach us soon enough so we can work on such a proposal together.**
 
-## Improving mlr's hyperparameter and tuning system for efficint model selection.
+## Improving mlr's hyperparameter and tuning system for efficient model selection.
 
-**Summary:** Improve mlr's hyperparamter system with much more "default" knowlegde and make hyperparameter tuning more flexible, efficient and convenient. 
+**Summary:** Improve mlr's hyperparamter system with much more "default" knowledge and make hyperparameter tuning more flexible, efficient and convenient. 
 
 **Description:** 
 mlr is a powerful package for general-purpose machine learning in R. Read more details on it here and in its tutorial:
 https://github.com/berndbischl/mlr
 
-mlr already contains a very powerful parameter description system for machine learning methods, which is based on our ParamHelpers package to a large extend.
-You can introduce yourself to it here
+mlr already contains a very powerful parameter description system for machine learning methods, which is based on our ParamHelpers package to a large extend. You can introduce yourself to it here:
+
 http://berndbischl.github.io/mlr/tutorial/html/create_learner/index.html
+
 and how it is used for tuning here:
+
 http://berndbischl.github.io/mlr/tutorial/html/tune/index.html
 
-But it also has some current drawbacks we would like eliminate, see the list of tasks below.
+But it also has some current drawbacks and options for strong improvements, see the list of tasks below.
 
 **Related work:** 
 <Add section from our paper?>
