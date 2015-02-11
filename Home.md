@@ -1,3 +1,2 @@
-### We do not have a WIKI, but a rather large tutorial ;-)
-
-### Read that for now.
+### We have currently a very small WIKI, but a rather large tutorial ;-)
+### Look there for info on basic package info.
