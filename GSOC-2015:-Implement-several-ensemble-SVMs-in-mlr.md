@@ -1,5 +1,5 @@
 
-## Implement several ensemble SVMs in mlr and improve mlr's handling of ensemble learners.
+## Implement several ensemble SVMs in mlr
 
 **Summary:** Implement several ensemble SVM learners in mlr and improve mlr to be able to handle ensemble learners in a systematic way.
 
