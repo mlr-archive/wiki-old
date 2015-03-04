@@ -42,4 +42,4 @@ gamma = 1/p, where p is the number of features.
 * Using the submodel trick in tuning:
 https://github.com/berndbischl/mlr/issues/223
 
-** NOW READ THE GENERAL PROPOSAL GUIDELINES IN THE WIKI TOP LEVEL PAGE ** 
+**NOW READ THE GENERAL PROPOSAL GUIDELINES IN THE WIKI TOP LEVEL PAGE** 
