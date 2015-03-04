@@ -1,5 +1,10 @@
 ## Improving mlr's hyperparameter and tuning system for efficient model selection.
 
+**Mentors:**
+
+* Bernd Bischl https://github.com/berndbischl ([@](mailto:bernd_bischl {at} gmx {dot} net))
+* Michel Lang https://github.com/mllg ([@](mailto:michellang {at} gmail {dot} com))
+
 **Summary:** Improve mlr's hyperparamter system with much more "default" knowledge and make hyperparameter tuning more flexible, efficient and convenient. 
 
 **Description:** 
@@ -37,23 +42,4 @@ gamma = 1/p, where p is the number of features.
 * Using the submodel trick in tuning:
 https://github.com/berndbischl/mlr/issues/223
 
-
-**Skills required:** 
-
-* Interest in and at least a little bit background knowledge of machine learning / predictive modelling
-
-* R programming
-
-* Package development with devtools, testthat, roxygen2
-
-* Basic git / github skills
-
-* Being able to cooperate with a larger number of people on a larger software project. This requires skills in software engineering, communication and some diligence.
-
-**Test:** Fork the package on [GH](https://github.com/berndbischl/mlr) and create a pull-request which implements a new learner. Or work on something simple in our issue tracker.
-
-**Mentor:**
-
-* Bernd Bischl https://github.com/berndbischl ([@](mailto:bernd_bischl {at} gmx {dot} net))
-
-* Who else from our team?
+** NOW READ THE GENERAL PROPOSAL GUIDELINES IN THE WIKI TOP LEVEL PAGE ** 
