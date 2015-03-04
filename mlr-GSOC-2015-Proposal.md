@@ -9,3 +9,4 @@ b) We are willing to work with students and mentor other projects which deal wit
 
 * [Improving mlr's hyperparameter and tuning system for efficient model selection](https://github.com/berndbischl/mlr/wiki/GSOC-2015:-Improving-mlr's-hyperparameter-and-tuning-system-for-efficient-model-selection)
 * [Improving mlr's visualisations](https://github.com/berndbischl/mlr/wiki/GSOC-2015:-Improving-mlr's-visualisations)
+* [Implement several ensemble SVMs in mlr](https://github.com/berndbischl/mlr/wiki/GSOC-2015:-Implement-several-ensemble-SVMs-in-mlr)
