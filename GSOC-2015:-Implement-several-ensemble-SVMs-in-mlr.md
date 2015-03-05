@@ -16,18 +16,26 @@ Goal of this project is to implement a few ensemble learners. This problem will 
 
 * Mixture of SVM Experts (see http://dl.acm.org/citation.cfm?id=638957). This is one of the first approaches to ensemble SVMs, where the output of the SVM base learners is fed to a neural network that learns to control the importance of each SVM learner. This is a more general approach, where the SVMs could be replaced by any other base learner. 
 
-By implementing these blocks in mlr, the practical value of mlr will enhance greatly. 
+By implementing these blocks in mlr, the practical value of mlr will enhance greatly, as it is well-known that Ensemble SVMs are in general more efficient than a single SVM. Potentially they can reduce the sup-quadratic runtime of SVMs to sub-quadratic, making SVMs feasible in practical terms. As none dedicated implementations of ensemble SVMs exist currently, these first steps will pave the road for efficient state-of-the-art SVM implementation. 
+benefit for communinty.
+
 
 
 **Related work:** 
-* There are several R packages capable of creating ensemble learners, like h2o (https://github.com/h2oai/h2o/tree/master/R/ensemble), but nearly all of them specialize on specific ensembles only. For a list of these specialized packages see  http://blog.revolutionanalytics.com/2014/04/ensemble-packages-in-r.html . None of them contain any kind of ensemble SVM learner.
+* There are several R packages capable of creating ensemble learners, like h2o (https://github.com/h2oai/h2o/tree/master/R/ensemble), but nearly all of them specialize on specific ensembles only. For a list of these specialized packages see  http://blog.revolutionanalytics.com/2014/04/ensemble-packages-in-r.html . None of them contain any kind of specialized ensemble SVM learner. They only allow for construction of standard ensembles, like bagging or boosting, that do not use the specific properties of SVMs.
+
 
 **Potential tasks:** 
-* Define and implement building blocks that are needed for ensemble SVMs.
+* Define what is needed for the three ensemble SVMs, e.g. the mixture of experts needs an neural network.
 
-* Implement the above mentioned three ensemble SVM learner.
+* Implement the above mentioned three ensemble SVM learner as pure R functions.
+
+* Speed-up the ensemble SVM learners by implementing bottlenecks in C++.
 
 * From the gained experience, create additional methods for the creation of ensemble learners in mlr.
+
+The three algorithms are sorted by implementations efforts, i.e. the first one is easy to implement, the second one is more demanding while the third needs the student to understand how different machine learning methods (neural networks and SVMs) can be used to supplement each other. 
+We expect that the first task contains some learning of the R language, and can be completed very well within two weeks. The second algorithm has a working matlab-code, which will be very useful to implement it in R. Thus, we expect the task to be easily finished within four weeks. The last task is more demanding and an implementation should be possible also within a month. 
 
 
 **Skills required:** 
@@ -44,7 +52,7 @@ By implementing these blocks in mlr, the practical value of mlr will enhance gre
 
 
 **Expected Results:** 
-* Identify the key building blocks of the above three methods (e.g. DC-SVM needs kernel k-means). 
+* Write pseudo-code for the above three methods and identify building blocks (e.g. DC-SVM needs kernel k-means). 
 
 * Implement these in mlr (some exist, some do not). These must be shown to work by themselves on benchmark data sets.
 
@@ -57,8 +65,15 @@ By implementing these blocks in mlr, the practical value of mlr will enhance gre
 * If time permits: As implementations in R are often slower than in languages like C/C++, try to speed things up by exporting parts of the code to C++. Ideally the implementations should nearly as fast as the numbers given in the paper.
 
 
+**Test:**
+
+* Read and understand the cited papers on a practical level. This means that the student can explain how the algorithms work (Deeper understanding of the theory is helpful, but not necessary for the implementation). This should be shown by a pseudo-code version of the algorithms.
+
+* 
+
 **Mentors:**
+
+* Aydin Demircioglu https://github.com/aydindemircioglu ([@](mailto:aydin.demircioglu {at} ini {dot} rub {dot} de))
 
 * Bernd Bischl https://github.com/berndbischl ([@](mailto:bernd_bischl {at} gmx {dot} net))
 
-* Aydin Demircioglu https://github.com/aydindemircioglu ([@](mailto:aydin.demircioglu {at} ini {dot} rub {dot} de))
