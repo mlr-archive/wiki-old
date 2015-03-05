@@ -10,7 +10,7 @@ This is also true for mlr, one of the larger general-purpose machine learning li
 
 Goal of this project is to implement a few ensemble learners. This problem will be approached in a hands-on, step-by-step fashion and will focus solely on ensemble support vector machines (SVM), as these are very promising algorithms to reduce the quadratic complexity of SVMs. Three ensemble SVM learners have been chosen:
 
-* Clustered Support Vector Machines (http://jmlr.org/proceedings/papers/v31/gu13b.html), where the input space is clustered by K-Means and in each cluster an SVM is trained. These local SVMs are regularized by an global SVM. The problem can be reduced to a standard SVM problem and can be solved by any off-the-shelf SVM solver like LIBSVM. 
+* Clustered Support Vector Machines (http://jmlr.org/proceedings/papers/v31/gu13b.html), where the input space is clustered by K-Means and in each cluster an SVM is trained. These local SVMs are regularized by a global SVM. The problem can be reduced to a standard SVM problem and can be solved by any off-the-shelf SVM solver like LIBSVM. 
 
 * Divide-and-Conquer SVM (http://arxiv.org/abs/1311.0914), which is a relatively new approach that seems to provide an order of magnitude of speed-up over standard LIBSVM. Matlab code is provided by the author (see http://www.cs.utexas.edu/~cjhsieh/dcsvm/). 
 
