@@ -6,7 +6,7 @@
 mlr is a powerful package for general-purpose machine learning in R. Read more details on it here and in its tutorial:
 https://github.com/berndbischl/mlr
 
-There are already a number of functions for plotting various objects created by mlr, e.g. for predictions of learners described in the tutorial [here](http://berndbischl.github.io/mlr/tutorial/html/predict/index.html). These functions are mostly based on `ggplot`, although there is integration with [ViperCharts](http://viper.ijs.si/) as well.
+There are already a number of functions for plotting various objects created by mlr, e.g., for predictions of learners described in the tutorial [here](http://berndbischl.github.io/mlr/tutorial/html/predict/index.html#visualizing-the-prediction). These functions are mostly based on `ggplot`, although there is integration with [ViperCharts](http://viper.ijs.si/) as well.
 
 This project aims to extend mlr's visualisation capabilities. This will facilitate a number of things that are beneficial to the community:
 
@@ -16,7 +16,7 @@ This project aims to extend mlr's visualisation capabilities. This will facilita
 
 **Related Work:**
 
-Many learners provide some functionality to draw predictions or visualise the models, e.g. `plot.lm` and `plot.nn`. `ggplot` provides a *lot* of drawing and plotting functionality, some of which is already used by mlr. `shiny` provides a way to do more interactive visualisations and is currently not integrated with mlr.
+Many learners provide some functionality to draw predictions or visualise the models, e.g., `plot.lm` (diagnostic plots for linear models) and `plot.nn` (visualization of a fitted neural network). `ggplot` provides a *lot* of drawing and plotting functionality, some of which is already used by mlr. `shiny` provides a way to do more interactive visualisations and is currently not integrated with mlr.
 
 There are a number of other R packages that provide a common interface to different machine learning algorithms (e.g. `caret`), but none of them has extensive visualisation capabilities.
 
