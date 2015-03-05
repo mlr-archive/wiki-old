@@ -25,7 +25,7 @@ By implementing these blocks in mlr, the practical value of mlr will enhance gre
 
 
 **Potential tasks:** 
-* Define what is needed for the three ensemble SVMs, e.g. the mixture of experts needs an neural network.
+* Understand the three ensemble SVMs and define what is needed for an implementation, e.g. the mixture of experts needs an neural network.
 
 * Implement the above mentioned three ensemble SVM learner as pure R functions.
 
@@ -33,8 +33,11 @@ By implementing these blocks in mlr, the practical value of mlr will enhance gre
 
 * From the gained experience, create additional methods for the creation of ensemble learners in mlr.
 
+* If time permits: As implementations in R are often slower than in languages like C/C++, try to speed things up by exporting parts of the code to C++. Ideally the implementation should nearly as fast as stated in the corresponding papers.
+
+
 The three algorithms are sorted by implementations efforts, i.e. the first one is easy to implement, the second one is more demanding while the third needs the student to understand how different machine learning methods (neural networks and SVMs) can be used to supplement each other. 
-We expect that the first task contains some learning of the R language, and can be completed very well within two weeks. The second algorithm has a working matlab-code, which will be very useful to implement it in R. Thus, we expect the task to be easily finished within four weeks. The last task is more demanding and an implementation should be possible also within a month. 
+We expect that the first task contains some learning of the R language, and can be completed very well within two weeks. The authors of the second algorithm provided some matlab-code, which will be very useful to implement it in R. Thus, we expect the task to be doable within four weeks. The last task is slightly more demanding, but as the main building blocks (SVMs and neural networks) already exist, implementation will be possible also within a month. 
 
 
 **Skills required:** 
@@ -50,29 +53,20 @@ We expect that the first task contains some learning of the R language, and can 
 * Being able to cooperate with a larger number of people on a larger software project. This requires skills in software engineering, communication and some diligence.
 
 
-**Expected Results:** 
-* Write pseudo-code for the above three methods and identify building blocks (e.g. DC-SVM needs kernel k-means). 
-
-* Implement these in mlr (some exist, some do not). These must be shown to work by themselves on benchmark data sets.
-
-* Identify all hyperparameters of the three methods, what extra paramaters must be set aitionally to the number of ensembles.
-
-* Implementation of all three methods as separate learners in mlr (in the order above). 
-
-* Reproduce the key experimental part in the corresponding papers, i.e. show that the implemented solver exhibits a similar accuracy. Do this also step-by-step, i.e. algorithm by algorithm.
-
-* If time permits: As implementations in R are often slower than in languages like C/C++, try to speed things up by exporting parts of the code to C++. Ideally the implementation should nearly as fast as stated in the corresponding papers.
 
 
 **Test:**
 
-* Read and understand the cited papers on a practical level. This means that the student can explain how the algorithms work (Deeper understanding of the theory is helpful, but not necessary for the implementation). This should be shown by a pseudo-code version of the algorithms.
+* Read and understand the cited papers on a practical level. This means that the student can explain how the algorithms work (Deeper understanding of the theory is helpful, but not necessary for the implementation). All hyperparameters (as the number of ensemble members) must be identified. This should be shown by a detailed pseudo-code version of all algorithms.
+
+* Implementation of the pseudo-code in R within the mlr framework as learners. The student must know how learners are implemented in mlr. 
 
 * The implemented learners can be applied to a binary classification data set like australian (see LibSVM data set page http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html).
 
 * The implementations are faster than a single SVM on a larger data set like covertype, when the number of ensemble members becomes large enough (if the paper says so).
 
 * If possible, the results from the corresponding papers can be reproduced.
+
 
 
 **Mentors:**
