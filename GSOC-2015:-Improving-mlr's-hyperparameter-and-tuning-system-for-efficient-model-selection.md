@@ -15,7 +15,7 @@ mlr already contains a very powerful parameter description system for machine le
 
 https://github.com/berndbischl/ParamHelpers
 
-You can study how this are used in Learner parameter definition here:
+You can study how this is used in Learner parameter definition here:
 
 http://berndbischl.github.io/mlr/tutorial/html/create_learner/index.html
 
