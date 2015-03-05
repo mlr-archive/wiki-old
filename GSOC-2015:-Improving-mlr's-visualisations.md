@@ -12,7 +12,7 @@ This project aims to extend mlr's visualisation capabilities. This will facilita
 
 - Model analysis. Being able to visually inspect a model and compare it to other models facilitates the understanding of what the learner does internally.
 - Teaching. mlr's visualisation capabilities are used for teaching machine learning algorithms and concepts already, but the functionality that is provided at the moment does not go far enough (in particular with respect to visualising models themselves).
-- Industrial applications. There is a growing trend for interactive web-based visualisations. R has several packages (e.g. `shiny`) that facilitate this, but only basic integration with ViperCharts is currently available in mlr.
+- Industrial applications. There is a growing trend for interactive web-based visualisations. R has several packages (e.g. [shiny](http://shiny.rstudio.com)) that facilitate this, but only basic integration with [ViperCharts](http://viper.ijs.si) is currently available in mlr.
 
 **Related Work:**
 
