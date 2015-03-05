@@ -37,7 +37,7 @@ By implementing these blocks in mlr, the practical value of mlr will enhance gre
 
 
 The three algorithms are sorted by implementations efforts, i.e. the first one is easy to implement, the second one is more demanding while the third needs the student to understand how different machine learning methods (neural networks and SVMs) can be used to supplement each other. 
-We expect that the first task contains some learning of the R language, and can be completed very well within two weeks. The authors of the second algorithm provided some matlab-code, which will be very useful to implement it in R. Thus, we expect the task to be doable within four weeks. The last task is slightly more demanding, but as the main building blocks (SVMs and neural networks) already exist, implementation will be possible also within a month. 
+We expect that the first task contains some learning of the R language, and can be completed very well within two weeks by a student. The authors of the second algorithm provided some matlab-code, which will be very useful to implement it in R. Thus, we expect the task to be doable for a student within four weeks. The last task is slightly more demanding, but as the main building blocks (SVMs and neural networks) already exist, implementation will be possible also within a month. 
 
 
 **Skills required:** 
