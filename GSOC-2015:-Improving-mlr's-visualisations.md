@@ -49,4 +49,4 @@ Resolve [Issue #247](https://github.com/berndbischl/mlr/issues/247).
 
 * Lars Kotthoff https://github.com/larskotthoff ([@](mailto:lars.kotthoff {at} insight-centre {dot} org))
 
-* Julia Schiffner https://github.com/schiffner ([@](mailto:julia.schiffner {at} tu-dortmund {dot} de))
+* Julia Schiffner https://github.com/schiffner ([@](mailto:schiffner {at} math {dot} uni-duesseldorf {dot} de))
