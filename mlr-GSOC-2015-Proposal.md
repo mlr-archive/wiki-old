@@ -24,7 +24,7 @@ IF THIS LINE IS HERE THE PROPOSAL IS NOT DONE YET!
 
 ### What do I need to send to the mentors? 
 
-* Background Info about yourself. Who are you, which university, which subject. Why do you have the skills? A link to your active Github account is also perfect. 
+* Background Info about yourself. Who are you, which university, which subject? Why do you have the skills? A link to your active Github account is also perfect. 
 * Which project(s) are you willing to work on?
 * Make 1-2 merge requests that demonstrate your skills.
 
