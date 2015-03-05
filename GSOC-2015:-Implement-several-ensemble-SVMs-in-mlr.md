@@ -56,20 +56,25 @@ We expect that the first task contains some learning of the R language, and can 
 
 * Implement these in mlr (some exist, some do not). These must be shown to work by themselves on benchmark data sets.
 
-* Identify all hyperparameters of the three methods.
+* Identify all hyperparameters of the three methods, what extra paramaters must be set aitionally to the number of ensembles.
 
 * Implementation of all three methods as separate learners in mlr (in the order above). 
 
 * Reproduce the key experimental part in the corresponding papers, i.e. show that the implemented solver exhibits a similar accuracy. Do this also step-by-step, i.e. algorithm by algorithm.
 
-* If time permits: As implementations in R are often slower than in languages like C/C++, try to speed things up by exporting parts of the code to C++. Ideally the implementations should nearly as fast as the numbers given in the paper.
+* If time permits: As implementations in R are often slower than in languages like C/C++, try to speed things up by exporting parts of the code to C++. Ideally the implementation should nearly as fast as stated in the corresponding papers.
 
 
 **Test:**
 
 * Read and understand the cited papers on a practical level. This means that the student can explain how the algorithms work (Deeper understanding of the theory is helpful, but not necessary for the implementation). This should be shown by a pseudo-code version of the algorithms.
 
-* 
+* The implemented learners can be applied to a binary classification data set like australian (see LibSVM data set page http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html).
+
+* The implementations are faster than a single SVM on a larger data set like covertype, when the number of ensemble members becomes large enough (if the paper says so).
+
+* If possible, the results from the corresponding papers can be reproduced.
+
 
 **Mentors:**
 
