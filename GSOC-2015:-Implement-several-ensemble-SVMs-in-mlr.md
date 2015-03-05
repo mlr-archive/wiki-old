@@ -16,8 +16,7 @@ Goal of this project is to implement a few ensemble learners. This problem will 
 
 * Mixture of SVM Experts (see http://dl.acm.org/citation.cfm?id=638957). This is one of the first approaches to ensemble SVMs, where the output of the SVM base learners is fed to a neural network that learns to control the importance of each SVM learner. This is a more general approach, where the SVMs could be replaced by any other base learner. 
 
-By implementing these blocks in mlr, the practical value of mlr will enhance greatly, as it is well-known that Ensemble SVMs are in general more efficient than a single SVM. Potentially they can reduce the sup-quadratic runtime of SVMs to sub-quadratic, making SVMs feasible in practical terms. As none dedicated implementations of ensemble SVMs exist currently, these first steps will pave the road for efficient state-of-the-art SVM implementation. 
-benefit for communinty.
+By implementing these blocks in mlr, the practical value of mlr will enhance greatly, as it is well-known that Ensemble SVMs are in general more efficient than a single SVM. Potentially they can reduce the sup-quadratic runtime of SVMs to sub-quadratic, making SVMs feasible in practical terms. As none dedicated implementations of ensemble SVMs exist currently, these first steps will pave the road for efficient state-of-the-art SVM implementations in R. 
 
 
 
