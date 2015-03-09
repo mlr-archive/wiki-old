@@ -59,13 +59,14 @@ We expect that the first task contains some learning of the R language, and can 
 
 Create a simple learner that uses kernelized SVM and $K$-Means for binary classification. This is not a 'true' ensemble, but instead a local learner, which could be easily enhanced to a 'true' ensemble. Proceed like this: 
 
-* The learner with use three parameters: $C$, the regularization parameter for the SVM, $\gamma$, the RBF kernel parameter and $n$ the number of clusters. 
+* The learner will use three parameters: $C$, the regularization parameter for the SVM, $\gamma$, the RBF kernel parameter and $n$ the number of clusters. 
 
-* Write a corresponding trainer. The trainer should work with a given binary, labeled dataset as follows: Use  $K$-Means to cluster the training data into $n$ clusters. On each cluster, train an SVM. Assign the trained model with the cluster it was trained on. 
+* Write a corresponding trainer. The trainer should work with a given binary, labeled dataset as follows: Use  $K$-Means to cluster the training data (without labels of course) into $n$ clusters. On each cluster, train an SVM. Assign the trained model with the cluster it was trained on. Notice that sometimes clusters only have one label-- in that case you obviously do not need a SVM model, but can just save the label for later prediction.
 
 * Write a prediction method. Prediction works by simply determining for a given test point the cluster it belongs to. Then apply the associated SVM model to the test point and return the label the SVM predicted.
 
-It is *not* necessary to implement the learner directly in mlr! To show your interest and ability, it is enough to write your own simple demo program that uses mlr in the background. Test your program with a simple binary data set of your choice with at least 500 data points, which can be obtained e.g. from the OpenML project at http://openml.org or the LIBSVM data set page http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html.
+It is *not* necessary to implement the learner directly in mlr! To show your interest and ability, it is enough to write a simple demo program that uses mlr. You also do not need subroutines, you can just create a list with models, loop over the clusters and assign the learned model to the list. 
+Test your program with a simple binary data set of your choice with at least 500 data points, which can be obtained e.g. from the OpenML project at http://openml.org or the LIBSVM data set page http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html. Or use one of the R datasets, e.g. use BreastCancer.
 
 
 **Mentors:**
