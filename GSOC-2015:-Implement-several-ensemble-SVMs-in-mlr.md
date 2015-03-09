@@ -57,16 +57,15 @@ We expect that the first task contains some learning of the R language, and can 
 
 **Test:**
 
-* Read and understand the cited papers on a practical level. This means that the student can explain how the algorithms work (Deeper understanding of the theory is helpful, but not necessary for the implementation). All hyperparameters (as the number of ensemble members) must be identified. This should be shown by a detailed pseudo-code version of all algorithms.
+Create a simple learner that uses kernelized SVM and $K$-Means for binary classification. This is not a 'true' ensemble, but instead a local learner, which could be easily enhanced to a 'true' ensemble. Proceed like this: 
 
-* Implementation of the pseudo-code in R within the mlr framework as learners. The student must know how learners are implemented in mlr. 
+* Write a learner with the name "ensemble.test", that uses three parameters: $C$, the regularization parameter for the SVM, $\gamma$, the RBF kernel parameter and $n$ the number of clusters. 
 
-* The implemented learners can be applied to a binary classification data set like australian (see LibSVM data set page http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html).
+* Write a corresponding trainer. The trainer should do the following: Use $K$-Means to cluster the training data into $n$ clusters. On each cluster, train an SVM. Assign the trained model with the cluster it was trained on. 
 
-* The implementations are faster than a single SVM on a larger data set like covertype, when the number of ensemble members becomes large enough (if the paper says so).
+* Write a prediction method. Prediction works by simply determining for a given test point the cluster it belongs to. Then apply the associated SVM model to the test point and return the label the SVM predicted.
 
-* If possible, the results from the corresponding papers can be reproduced.
-
+It is nice to create this local learner directly in mlr, but not strictly necessary. To show your interest and ability, it is enough to write your own simple routines that use mlr in the background.
 
 
 **Mentors:**
