@@ -19,13 +19,13 @@ Input / Output? What happens in the method? Mention really important details? Li
 
 * Your unit tests and R examples will be of perfect compromise of
   * They test / demo everything relevant
-  * The run really fast. Maybe in much less then a second. Yes, sometimes difficult, but work on it.
+  * They run really fast. Maybe in much less then a second. Yes, sometimes difficult, but work on it.
 
 * Do not break travis, before you end your "work cycle". Actually, do not break it at all. Watch the button. The previous hint above should help you in 99% of cases. But: Our unit tests are now quite complex. If you get confused why stuff does not work, ask.
 
 * Every new thing you add, exported signature you change or major behavior you change, gets mentioned in NEWS.
-* If you find a bug, always do this: Reproduce via test, THEN repair. Then make sure test runs. Reread the code piece a gain you touched. Can the structure be improved? If this can be done quickly, do it now.
-For more complex stuff: Open up clearly understandable issue. Best with a minimal and reproducing example. 
+* If you find a bug, always do this: Reproduce via test, THEN repair. Then make sure test runs. Reread the code piece again you touched. Can the structure be improved? If this can be done quickly, do it now.
+For more complex stuff: Open up a clearly understandable issue. Best with a minimal and reproducing example. 
 
 
 
