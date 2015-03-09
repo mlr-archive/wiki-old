@@ -65,7 +65,7 @@ Create a simple learner that uses kernelized SVM and $K$-Means for binary classi
 
 * Write a prediction method. Prediction works by simply determining for a given test point the cluster it belongs to. Then apply the associated SVM model to the test point and return the label the SVM predicted.
 
-It is nice to create this local learner directly in mlr, e.g. as a learner with the name "local.SVM", but not strictly necessary. To show your interest and ability, it is enough to write your own simple routines that use mlr in the background. (Of course, making this directly in mlr will be better.) Test your program with a simple binary data set of your choice with at least 500 data points, which can be obtained e.g. from the LibSVM data set page http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html.
+It is *not* necessary to implement the learner directly in mlr! To show your interest and ability, it is enough to write your own simple demo program that uses mlr in the background. Test your program with a simple binary data set of your choice with at least 500 data points, which can be obtained e.g. from the OpenML project at http://openml.org or the LIBSVM data set page http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html.
 
 
 **Mentors:**
