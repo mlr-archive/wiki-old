@@ -59,13 +59,13 @@ We expect that the first task contains some learning of the R language, and can 
 
 Create a simple learner that uses kernelized SVM and $K$-Means for binary classification. This is not a 'true' ensemble, but instead a local learner, which could be easily enhanced to a 'true' ensemble. Proceed like this: 
 
-* Write a learner with the name "ensemble.test", that uses three parameters: $C$, the regularization parameter for the SVM, $\gamma$, the RBF kernel parameter and $n$ the number of clusters. 
+* The learner with use three parameters: $C$, the regularization parameter for the SVM, $\gamma$, the RBF kernel parameter and $n$ the number of clusters. 
 
-* Write a corresponding trainer. The trainer should do the following: Use $K$-Means to cluster the training data into $n$ clusters. On each cluster, train an SVM. Assign the trained model with the cluster it was trained on. 
+* Write a corresponding trainer. The trainer should work with a given binary, labeled dataset as follows: Use  $K$-Means to cluster the training data into $n$ clusters. On each cluster, train an SVM. Assign the trained model with the cluster it was trained on. 
 
 * Write a prediction method. Prediction works by simply determining for a given test point the cluster it belongs to. Then apply the associated SVM model to the test point and return the label the SVM predicted.
 
-It is nice to create this local learner directly in mlr, but not strictly necessary. To show your interest and ability, it is enough to write your own simple routines that use mlr in the background.
+It is nice to create this local learner directly in mlr, e.g. as a learner with the name "local.SVM", but not strictly necessary. To show your interest and ability, it is enough to write your own simple routines that use mlr in the background. (Of course, making this directly in mlr will be better.) Test your program with a simple binary data set of your choice with at least 500 data points, which can be obtained e.g. from the LibSVM data set page http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html.
 
 
 **Mentors:**
