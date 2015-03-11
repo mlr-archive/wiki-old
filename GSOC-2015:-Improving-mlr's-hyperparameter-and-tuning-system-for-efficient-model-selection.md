@@ -5,25 +5,13 @@
 * Bernd Bischl https://github.com/berndbischl ([@](mailto:bernd_bischl {at} gmx {dot} net))
 * Michel Lang https://github.com/mllg ([@](mailto:michellang {at} gmail {dot} com))
 
-**Summary:** Improve mlr's hyperparamter system with much more "default" knowledge and make hyperparameter tuning more flexible, efficient and convenient. 
+**Summary:** Enrich mlr's hyperparamter system with a-priori knowledge to make hyperparameter tuning more flexible, efficient and convenient. 
 
 **Description:** 
-mlr is a powerful package for general-purpose machine learning in R. Read more details on it here and in its tutorial:
-https://github.com/berndbischl/mlr
-
-mlr already contains a very powerful parameter description system for machine learning methods, which is based on our ParamHelpers package:
-
-https://github.com/berndbischl/ParamHelpers
-
-You can study how this is used in Learner parameter definition here:
-
-http://berndbischl.github.io/mlr/tutorial/html/create_learner/index.html
-
-and how it is used for tuning here:
-
-http://berndbischl.github.io/mlr/tutorial/html/tune/index.html
-
-But it also has some current drawbacks and options for strong improvements, see the list of tasks below.
+[mlr](https://github.com/berndbischl/mlr) is a powerful package for general-purpose machine learning in R.
+It already contains a very powerful parameter description system for machine learning methods, which is based on the [ParamHelpers](https://github.com/berndbischl/ParamHelpers) package.
+ParamHelpers is both used for learner parameter definition and tuning, more information is provided by the tutorial pages on [learners](http://berndbischl.github.io/mlr/tutorial/html/create_learner/) and [tuning](http://berndbischl.github.io/mlr/tutorial/html/tune/), respectively.
+The current implementation also has some current drawbacks and options for strong improvements, see the list of tasks below.
 
 **Related work:** 
 * Add section from our paper?
