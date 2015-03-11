@@ -14,8 +14,7 @@ ParamHelpers is both used for learner parameter definition and tuning, more info
 The current implementation also has some current drawbacks and options for strong improvements, see the list of tasks below.
 
 **Related work:** 
-* Add section from our paper?
-* Mention caret tuning?
+The [caret](http://topepo.github.io/caret/index.html) package already provides some meta information for some parameters of some learners, i.e. which parameters are should be considered for tuning using which static box constraints.
 
 **Potential tasks:** 
 * Defaults of Learner parameters can only be static constants. Allowing for data-dependent functions     would be much better. Eg for and SVM I might want to have the default function
@@ -30,4 +29,5 @@ gamma = 1/p, where p is the number of features.
 * Using the submodel trick in tuning:
 https://github.com/berndbischl/mlr/issues/223
 
-**NOW READ THE GENERAL PROPOSAL GUIDELINES IN THE WIKI TOP LEVEL PAGE** 
+** Skills required **
+Good knowledge of machine learning, R and R package development.
