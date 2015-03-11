@@ -14,7 +14,7 @@ ParamHelpers is used for the definition of learner parameters as well as paramet
 The current implementation also has some drawbacks and options for strong improvements, see the list of tasks below.
 
 **Related work:** 
-The [caret](http://topepo.github.io/caret/index.html) package already provides some meta information for some parameters of some learners, i.e. which parameters are should be considered for tuning using which static box constraints.
+The [caret](http://topepo.github.io/caret/index.html) package (arguably the only reasonable comprehensive alternative to mlr) already provides some meta information for some parameters of some learners, i.e. which parameters are should be considered for tuning using which static box constraints. But data dependent defaults and constraints are not possible. Furthermore, caret provides much less powerful tuning algorithms and a less worked out object oriented system for parameters and learners in the background. Also, parameters of combined methods, e.g. preprocessing and modelling, cannot be tuned jointly.
 
 **Potential tasks:** 
 * Defaults of Learner parameters can only be static constants. Allowing for data-dependent functions would be much more flexible. E.g., for an SVM I might want to have the default function gamma = 1/p, where p is the number of features. 
@@ -30,3 +30,5 @@ https://github.com/berndbischl/mlr/issues/223
 
 **Skills required:**
 Good knowledge of machine learning, R package development and R in general.
+
+**Test**: Implement a new learner, including its most important hyperparameters. If you are unsure which learner to implement, you can compare the list of [mlr learners](http://berndbischl.github.io/mlr/tutorial/html/integrated_learners/index.html) with the list of [caret learners](http://topepo.github.io/caret/modelList.html) or the CRAN [task view on machine learning](http://cran.r-project.org/web/views/MachineLearning.html).
