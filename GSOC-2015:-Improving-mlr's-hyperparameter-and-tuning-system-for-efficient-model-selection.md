@@ -28,5 +28,5 @@ The [caret](http://topepo.github.io/caret/index.html) package already provides s
 * Using the submodel trick in tuning:
 https://github.com/berndbischl/mlr/issues/223
 
-** Skills required **
+**Skills required**
 Good knowledge of machine learning, R package development and R in general.
