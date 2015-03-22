@@ -1,6 +1,10 @@
-# useR 2015 Tutorial: Applied Machine Learning and Efficient Model Selection with mlr
+# useR 2015 Tutorial
+
+**Applied Machine Learning and Efficient Model Selection with mlr**
 
 by Bernd Bischl, Michel Lang
+
+to be held on [useR 2015](http://user2015.math.aau.dk/) in Aarlborg, DK, June 30th, 2015.
 
 Background knowledge required: Basic knowledge of R and machine learning
 
@@ -28,7 +32,7 @@ covered we will especially focus on the important aspects of benchmarking, model
 hyperparameter tuning. As all of these usually require a large amount of computational resources in
 realistic applications, we will show how to easily parallelize them in common parallel environments.
 The course will end with a short demonstration on how to access the new OpenML server for open
-machine learning (\url{http://www.openml.org}) which provides a large repository of benchmark data sets 
+machine learning (http://www.openml.org) which provides a large repository of benchmark data sets 
 and enables reproducible experiments and meta analysis.
 
 
@@ -41,5 +45,4 @@ and enables reproducible experiments and meta analysis.
 * Parallelization and high-performance computing
 * Model selection and hyper-parameter tuning
 * Interfacing the OpenML server with mlr
-
 
