@@ -1,8 +1,8 @@
 Here is some background information about the mentors you will work with.
 
+### Bernd Bischl
 
-
-###  Aydin Demircioglu
+### Aydin Demircioglu
 
 After my PhD in differential geometry (Potsdam, Germany), I worked for nearly six years as a software
 and research engineer in image processing at several companies. Apart from
@@ -16,3 +16,10 @@ As an direct extension of this, I currently work on ensemble SVMs. The proposed 
 project will be a realization of this work in R.
 
 You can find more information at my homepage [www.ini.rub.de/PEOPLE/aydind/](www.ini.rub.de/PEOPLE/aydind/)
+
+
+### Lars Kotthoff
+
+### Michel Lang
+
+### Julia Schiffner
