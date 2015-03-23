@@ -50,3 +50,5 @@ Resolve [Issue #247](https://github.com/berndbischl/mlr/issues/247).
 * Lars Kotthoff https://github.com/larskotthoff, melange ID larskotthoff ([@](mailto:lars.kotthoff {at} insight-centre {dot} org))
 
 * Julia Schiffner https://github.com/schiffner ([@](mailto:schiffner {at} math {dot} uni-duesseldorf {dot} de))
+
+* Bernd Bischl can co-mentor for general guidance and technical issues, or more if his project is not selected. https://github.com/berndbischl, melange ID berndbischl ([@](mailto:bernd_bischl {at} gmx {dot} net))
