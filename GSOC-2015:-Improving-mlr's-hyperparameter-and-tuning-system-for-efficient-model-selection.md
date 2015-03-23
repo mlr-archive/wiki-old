@@ -2,7 +2,7 @@
 
 **Mentors:**
 
-* Bernd Bischl https://github.com/berndbischl ([@](mailto:bernd_bischl {at} gmx {dot} net))
+* Bernd Bischl https://github.com/berndbischl, melange ID berndbischl ([@](mailto:bernd_bischl {at} gmx {dot} net))
 * Michel Lang https://github.com/mllg ([@](mailto:michellang {at} gmail {dot} com)) (Melange ID: mllg)
 
 **Summary:** Enrich mlr's hyperparamter system with a-priori knowledge to make hyperparameter tuning more flexible, efficient and convenient. 
