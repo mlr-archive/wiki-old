@@ -1,6 +1,9 @@
 Here is some background information about the mentors you will work with.
 
 ### Bernd Bischl
+I am from April on a Professor of computational statistics at the LMU Munich. I have a very broad background in machine learning and long-term experience in software engineering. I have written quite a few R packages, as visible from my Github account, and am the maintainer of mlr and e.g. the BatchJobs package. I am very interested in hyper-parameter tuning and model selection in my current research, which is the reason why I am mentoring the "hyperparameter / tuning" project. 
+
+You can find more information at my homepage http://www.statistik.lmu.de/~bischl/
 
 ### Aydin Demircioglu
 
