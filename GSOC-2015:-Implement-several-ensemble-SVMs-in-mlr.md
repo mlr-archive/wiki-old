@@ -71,7 +71,6 @@ Test your program with a simple binary data set of your choice with at least 500
 
 **Mentors:**
 
-* Aydin Demircioglu https://github.com/aydindemircioglu ([@](mailto:aydin.demircioglu {at} ini {dot} rub {dot} de))
+* Aydin Demircioglu https://github.com/aydindemircioglu ([@](mailto:aydin.demircioglu {at} ini {dot} rub {dot} de)), melange ID: aydind
 
 * Bernd Bischl https://github.com/berndbischl ([@](mailto:bernd_bischl {at} gmx {dot} net))
-
