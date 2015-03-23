@@ -3,7 +3,7 @@
 **Mentors:**
 
 * Bernd Bischl https://github.com/berndbischl, melange ID berndbischl ([@](mailto:bernd_bischl {at} gmx {dot} net))
-* Michel Lang https://github.com/mllg ([@](mailto:michellang {at} gmail {dot} com)) (Melange ID: mllg)
+* Michel Lang https://github.com/mllg, melange ID mllg ([@](mailto:michellang {at} gmail {dot} com)) 
 
 **Summary:** Enrich mlr's hyperparamter system with a-priori knowledge to make hyperparameter tuning more flexible, efficient and convenient. 
 
@@ -23,7 +23,7 @@ The [caret](http://topepo.github.io/caret/index.html) package (arguably the only
 
 * Parameters should know their default box-constraints for optimization. Currently the user has to set these manually for a tuning run.
 
-* Parameters should encode whether it is preferable to optimize them with a transformation, e.g. on a logscale. Eg., for the SVM again, we typically optimize C and gamma on a log2 scale from -15 to 15.
+* Parameters should encode whether it is preferable to optimize them with a transformation. Eg., for the SVM again, we typically optimize C and gamma on a log2 scale from -15 to 15.
 
 * Using the submodel trick in tuning:
 https://github.com/berndbischl/mlr/issues/223
@@ -31,4 +31,4 @@ https://github.com/berndbischl/mlr/issues/223
 **Skills required:**
 Good knowledge of machine learning, R package development and R in general.
 
-**Test**: Implement a new learner, including its most important hyperparameters. If you are unsure which learner to implement, you can compare the list of [mlr learners](http://berndbischl.github.io/mlr/tutorial/html/integrated_learners/index.html) with the list of [caret learners](http://topepo.github.io/caret/modelList.html) or the CRAN [task view on machine learning](http://cran.r-project.org/web/views/MachineLearning.html).
+**Test**: Implement a new learner, including its most important hyperparameters. If you are unsure which learner to implement, you can compare the list of [mlr learners](http://berndbischl.github.io/mlr/tutorial/html/integrated_learners/index.html) with the list of [caret learners](http://topepo.github.io/caret/modelList.html) or check the CRAN [task view on machine learning](http://cran.r-project.org/web/views/MachineLearning.html).
