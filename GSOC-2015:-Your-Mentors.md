@@ -20,6 +20,8 @@ You can find more information at my homepage [www.ini.rub.de/PEOPLE/aydind/](htt
 
 ### Lars Kotthoff
 
+I hold a PhD from the University of St Andrews since 2012 and have held 2 postdoctoral appointments since then. My research focuses on combinatorial search in artificial intelligence and how it can be combined with machine learning to, on one hand, make machine learning more scalable and flexible, and on the other combinatorial search more adaptive and intelligent. In my spare time, I am playing with various visualisation libraries especially in Javascript, which is where the idea for the project I'm mentoring came from. I have extensive experience mentoring students, having supervised project and thesis students at undergraduate and postgraduate level. In addition, I have developed and taught several courses at undergraduate and postgraduate levels.
+
 ### Michel Lang
 
 I've just finished my PhD thesis in statistics at the University of Dortmund where I will fulfill a postdoc position for the next months.
