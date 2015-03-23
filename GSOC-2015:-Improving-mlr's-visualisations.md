@@ -47,6 +47,6 @@ Resolve [Issue #247](https://github.com/berndbischl/mlr/issues/247).
 
 **Mentors:**
 
-* Lars Kotthoff https://github.com/larskotthoff ([@](mailto:lars.kotthoff {at} insight-centre {dot} org))
+* Lars Kotthoff https://github.com/larskotthoff, melange ID larskotthoff ([@](mailto:lars.kotthoff {at} insight-centre {dot} org))
 
 * Julia Schiffner https://github.com/schiffner ([@](mailto:schiffner {at} math {dot} uni-duesseldorf {dot} de))
