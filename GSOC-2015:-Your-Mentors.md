@@ -32,4 +32,12 @@ I'm programming R for more than 10 years now and I've given several courses and 
 I'm author and/or maintainer of many R packages (e.g., [checkmate](https://github.com/mllg/checkmate), [fmrmr](https://github.com/mllg/fmrmr), [fail](https://github.com/mllg/fail), [BatchJobs](https://github.com/tudo-r/BatchJobs), [BatchExperiments](https://github.com/tudo-r/BatchExperiments), [mlr](https://github.com/berndbischl/mlr)).
 My research topics include survival analysis, high dimensional data, parallel computing, hyperparameter tuning, and model selection. Thus, the proposed GSCOC project I would co-mentor with Bernd is closely connected to my personal research interests. 
 I've been a GSOC student back in 2013 where I implemented support for BatchJobs in the [BiocParallel](https://github.com/Bioconductor/BiocParallel) package.
+
 ### Julia Schiffner
+I hold a master's degree in statistics. My research interests are in machine learning,
+particularly supervised classification and benchmarking, and my current focus is on
+high-dimensional data (especially SNP data).
+I have written and contributed to several R-packages which can be found on
+[github](https://github.com/schiffner) and [R-forge](https://r-forge.r-project.org/projects/locclass/).
+I have extensive experience and interest in teaching, having both supervised theses students and
+taught statistics and R programming courses.
