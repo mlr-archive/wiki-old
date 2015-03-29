@@ -8,7 +8,7 @@ We assume that git is already installed on your local machine, if not follow [th
 
 Use `git clone` to clone this repo to your local machine:
 ```
-git https://github.com/berndbischl/mlr.git
+git clone https://github.com/berndbischl/mlr.git
 ```
 <br>
 `cd` into cloned repo:
