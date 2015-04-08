@@ -44,7 +44,7 @@ git remote add upstream https://github.com/berndbischl/mlr.git
 
 or if you have ssh set up you can use that url instead:
 ```
-git remote add upstream git@github.com:/berndbischl/mlr.git
+git remote add upstream git://github.com/berndbischl/mlr.git
 ```
 
 <br>
