@@ -1,7 +1,7 @@
-mlr - Setup & Contribution Guidelines
+mlr -- Setup & Contribution Guidelines
 =========
 
-To encourage a more structured and organized contribution workflow for <b>mlr</b>, every contributor should try to adhere to the guidelines listed in this wiki. We have also provided basic guidelines (particulary for new Github users) to setup mlr locally so you can immediately start to play around the <b>mlr</b> codebase.
+Did you find a bug? Is your favourite learner missing and you want to add it? Or do you have another idea for making mlr better? We welcome all contributions to mlr. While modifying or extending such a large project can seem daunting at first, here are some guidelines on how to get started.
 
 ## Version control setup
 
