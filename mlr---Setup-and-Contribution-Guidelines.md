@@ -21,7 +21,7 @@ You should have R set up on your local machine. mlr uses quite a number of other
 
 If you're using [RStudio](http://www.rstudio.com/products/rstudio/), you can import mlr as a project by clicking on file -> New Project -> Existing Directory (Browse the mlr project).
 
-### Contribution Guidelines
+### Forking
 
 If you want to make changes to the mlr code that you want to make public or submit back to us, you should
 fork the main repository to your account, using the **Fork** button on the top right corner.
@@ -73,6 +73,8 @@ git rebase master
 ```
 Now all your changes on your current branch will be based on top of the changes in *master* branch.
 
-Now, you can simply send the Pull Request to Parent Repo from your forked Repo on Github.
+## Contributing
 
-### Thanks for making mlr even better ;)
+Once you're happy with your code, please open a [pull request for the main repository](https://github.com/berndbischl/mlr/pulls). This will automatically run [Travis CI](https://travis-ci.org/berndbischl/mlr) on your changes to see if it still builds and all the tests pass. The developer team will get notified automatically of your pull request.
+
+For more information on how to implement code for mlr, please see the [coding guidelines](https://github.com/berndbischl/mlr/wiki/mlr-Coding-Guidelines).
