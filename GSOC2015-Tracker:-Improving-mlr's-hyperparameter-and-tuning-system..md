@@ -21,7 +21,7 @@ Here's a list of open issues, which are somehow related to hyperparameters, tuni
 
   * keep watching ...
 
-1. [Issue #246:](https://github.com/berndbischl/mlr/issues/246)
+1. [Issue #246:](https://github.com/berndbischl/mlr/issues/246) **(ISSUE SOLVED)**
   
   **Bug in** ```selectFeatures```**, in case of combination of** ```method = "sfs"``` **and** ```tune.threshold = TRUE```.**
 
@@ -29,7 +29,7 @@ Here's a list of open issues, which are somehow related to hyperparameters, tuni
 
   * Bernd assigned the issue to himself
 
-1. [Issue #245:](https://github.com/berndbischl/mlr/issues/245)
+1. [Issue #245:](https://github.com/berndbischl/mlr/issues/245) **(ISSUE SOLVED)**
 
   ```analyzeFeatselResult``` **throws an error; the function** ```analyzeFeatselResult``` **tries to convert** ```res$opt.path``` **(with** ```res``` **being the featsel-result) into a** ```data.frame``` **- which does not work.**
 
@@ -37,7 +37,7 @@ Here's a list of open issues, which are somehow related to hyperparameters, tuni
 
   * check, which is the correct element storing the optimization path and correct the function accordingly
 
-1. [Issue #242:](https://github.com/berndbischl/mlr/issues/242)
+1. [Issue #242:](https://github.com/berndbischl/mlr/issues/242) **(ISSUE SOLVED)**
 
   **The names of the inner loop of a nested tuning contain the prefix** ```"threshold."```**, which causes an error within the outer loop.**
 
@@ -51,6 +51,10 @@ Here's a list of open issues, which are somehow related to hyperparameters, tuni
 
   Question:
     * Is this issue that important? The parameter ```nu``` will just be ignored - like in the original function ```e1071::svm``` as well. However, if it is important, one could think about making dependency checks, i.e. in case ```nu``` is defined, check whether ```type``` is ```nu-...```
+
+1. [Issue #225:](https://github.com/berndbischl/mlr/issues/225)
+
+  **Find a way to deviate from the defaults of an implemented underlying learner.**
 
 1. [Issue #223:](https://github.com/berndbischl/mlr/issues/223)
 
@@ -79,6 +83,13 @@ Here's a list of open issues, which are somehow related to hyperparameters, tuni
   Question:
   * Does that mean, we are looking for something, which uses different imputation techniques and tells you, which one works best?!
 
+1. [Issue #123:](https://github.com/berndbischl/mlr/issues/123)
+
+  **Need information, whether a Learner allows weights.**
+
+  Suggested solution:
+  * Add a tag that shows the name of the weight parameter (or ```NULL``` if such a parameter does not exist).
+
 
 ***
 
@@ -87,8 +98,13 @@ Here's a list of open issues, which are somehow related to hyperparameters, tuni
 The following items should be promptly solvable:
 
 * [item 1 / issue #279](https://github.com/berndbischl/mlr/issues/279): digit issue 
-* [item 4 / issue #245](https://github.com/berndbischl/mlr/issues/245): get ```optPath``` within ```analyzeFeatselResult```
-* [item 5 / issue #242](https://github.com/berndbischl/mlr/issues/242): naming issue in case of nested tuning
+* [item 4 / issue #245](https://github.com/berndbischl/mlr/issues/245): get ```optPath``` within ```analyzeFeatselResult``` 
+
+  **ISSUE SOLVED**
+
+* [item 5 / issue #242](https://github.com/berndbischl/mlr/issues/242): naming issue in case of nested tuning 
+
+  **ISSUE SOLVED**
 
 ***
 
