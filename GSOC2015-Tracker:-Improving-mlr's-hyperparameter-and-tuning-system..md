@@ -25,25 +25,24 @@ Here's a list of open issues, which are somehow related to hyperparameters, tuni
   
   **Bug in** ```selectFeatures```**, in case of combination of** ```method = "sfs"``` **and** ```tune.threshold = TRUE```.**
 
-  Planned approach:
+  Solution:
 
-  * Bernd assigned the issue to himself
+  * see issue below
 
 1. [Issue #245:](https://github.com/berndbischl/mlr/issues/245) **(ISSUE SOLVED)**
 
   ```analyzeFeatselResult``` **throws an error; the function** ```analyzeFeatselResult``` **tries to convert** ```res$opt.path``` **(with** ```res``` **being the featsel-result) into a** ```data.frame``` **- which does not work.**
 
-  Suggested solution:
+  Solution:
 
-  * check, which is the correct element storing the optimization path and correct the function accordingly
+  * the optimization path did not store the extra information of the first iteration (= empty set) within the sfs-approach -- now it does
 
 1. [Issue #242:](https://github.com/berndbischl/mlr/issues/242) **(ISSUE SOLVED)**
 
   **The names of the inner loop of a nested tuning contain the prefix** ```"threshold."```**, which causes an error within the outer loop.**
 
-  Suggested solution:
-    1. remove that prefix (i.e. don't even generate it)
-    1. look for that prefix in the outer loop and remove it there
+  Solution:
+    * removes that prefix, when getting the threshold from the ```opt.path```
 
 1. [Issue #240:](https://github.com/berndbischl/mlr/issues/240)
 
