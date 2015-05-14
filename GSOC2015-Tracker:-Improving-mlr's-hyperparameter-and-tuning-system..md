@@ -4,13 +4,13 @@
 
 Here's a list of open issues, which are somehow related to hyperparameters, tuning, etc.
 
-1. [Issue #279:](https://github.com/berndbischl/mlr/issues/279)
+1. [Issue #279 **(SOLVED)**:](https://github.com/berndbischl/mlr/issues/279)
 
   **Hyperparameter tuning should be more flexible wrt. the number of digits of hyperparameter boundaries (e.g. problem if** ```lower = 1e-5``` **and** ```upper = 1e-4```**, because** ```digit = 4```**).**
  
-  Suggested solution:
+  Solution:
 
-  * allow user to modify digits in ```convertParamSetToIrace``` (by forwarding such an argument)
+  * the user can set the argument ```digits``` in ```makeTuneControlIrace```, which will be used by ```tuneIrace```
 
 
 1. [Issue #267:](https://github.com/berndbischl/mlr/issues/267)
@@ -21,7 +21,7 @@ Here's a list of open issues, which are somehow related to hyperparameters, tuni
 
   * keep watching ...
 
-1. [Issue #246:](https://github.com/berndbischl/mlr/issues/246) **(ISSUE SOLVED)**
+1. [Issue #246 **(SOLVED)**:](https://github.com/berndbischl/mlr/issues/246)
   
   **Bug in** ```selectFeatures```**, in case of combination of** ```method = "sfs"``` **and** ```tune.threshold = TRUE```.**
 
@@ -29,7 +29,7 @@ Here's a list of open issues, which are somehow related to hyperparameters, tuni
 
   * see issue below
 
-1. [Issue #245:](https://github.com/berndbischl/mlr/issues/245) **(ISSUE SOLVED)**
+1. [Issue #245 **(SOLVED)**:](https://github.com/berndbischl/mlr/issues/245)
 
   ```analyzeFeatselResult``` **throws an error; the function** ```analyzeFeatselResult``` **tries to convert** ```res$opt.path``` **(with** ```res``` **being the featsel-result) into a** ```data.frame``` **- which does not work.**
 
@@ -37,7 +37,7 @@ Here's a list of open issues, which are somehow related to hyperparameters, tuni
 
   * the optimization path did not store the extra information of the first iteration (= empty set) within the sfs-approach -- now it does
 
-1. [Issue #242:](https://github.com/berndbischl/mlr/issues/242) **(ISSUE SOLVED)**
+1. [Issue #242 **(SOLVED)**:](https://github.com/berndbischl/mlr/issues/242)
 
   **The names of the inner loop of a nested tuning contain the prefix** ```"threshold."```**, which causes an error within the outer loop.**
 
@@ -50,6 +50,9 @@ Here's a list of open issues, which are somehow related to hyperparameters, tuni
 
   Question:
     * Is this issue that important? The parameter ```nu``` will just be ignored - like in the original function ```e1071::svm``` as well. However, if it is important, one could think about making dependency checks, i.e. in case ```nu``` is defined, check whether ```type``` is ```nu-...```
+
+  Note:
+    * **berndbischl** mentioned that he might want to take care of that issue.
 
 1. [Issue #225:](https://github.com/berndbischl/mlr/issues/225)
 
@@ -90,20 +93,24 @@ Here's a list of open issues, which are somehow related to hyperparameters, tuni
   * Add a tag that shows the name of the weight parameter (or ```NULL``` if such a parameter does not exist).
 
 
+1. [Issue #111:](https://github.com/berndbischl/mlr/issues/111)
+
+  **Add budget parameter for tuning.**
+
+  Suggested solution:
+  * Add a parameter ```budget``` within ```makeTuneControl```, which then again will be transferred to the corresponding parameters within each of the tuning methods.
+
 ***
 
 ## (hopefully) rather "low-hanging fruits"
 
 The following items should be promptly solvable:
 
-* [item 1 / issue #279](https://github.com/berndbischl/mlr/issues/279): digit issue 
-* [item 4 / issue #245](https://github.com/berndbischl/mlr/issues/245): get ```optPath``` within ```analyzeFeatselResult``` 
-
-  **ISSUE SOLVED**
-
-* [item 5 / issue #242](https://github.com/berndbischl/mlr/issues/242): naming issue in case of nested tuning 
-
-  **ISSUE SOLVED**
+* [item 1 / issue #279 **(SOLVED)**](https://github.com/berndbischl/mlr/issues/279): digit issue 
+* [item 4 / issue #245 **(SOLVED)**](https://github.com/berndbischl/mlr/issues/245): get ```optPath``` within ```analyzeFeatselResult``` 
+* [item 5 / issue #242 **(SOLVED)**](https://github.com/berndbischl/mlr/issues/242):
+ naming issue in case of nested tuning 
+* [item 12 / issue #111](https://github.com/berndbischl/mlr/issues/111): add a ```budget``` argument to tuning methods 
 
 ***
 
