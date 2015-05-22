@@ -118,8 +118,8 @@ The following items should be promptly solvable:
 
 The two items below are very important issues and thus, were also part of the GSOC proposal:
 
-  * [item 9 / issue #223](https://github.com/berndbischl/mlr/issues/223): submodel issue
-  * [item 10 / issue #207](https://github.com/berndbischl/mlr/issues/207): data dependent defaults
+  * [item 8 / issue #223](https://github.com/berndbischl/mlr/issues/223): submodel issue
+  * [item 9 / issue #207](https://github.com/berndbischl/mlr/issues/207): data dependent defaults
 
 ***
 
