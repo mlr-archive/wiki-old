@@ -39,38 +39,7 @@ I have, along the way, been using the `ggplot2`/`ggvis` defaults for the sizing 
 
 It is possible to embed static `ggvis` plots in `html` documents (dynamic visualizations are somehow converted to static versions with a warning). I have figured out that (seemingly) all of the rendering of .Rmd files with ggvis plots is done using [rmarkdown](https://github.com/rstudio/rmarkdown), specifically rmarkdown::render. This uses knitr first and then calls pandoc which now is packaged with RStudio (this is called by the "knit HTML" button in RStudio). The call to `knitr` is vanilla (no special options). However with `pandoc` it is necessary to include several javascript libraries which are packaged in `ggvis` for the plots to render in html. Specifically, `jquery`, `vega`, `lodash`, `d3`, and a `ggvis.js` file. All are minified and packaged with `ggvis`. Creating a html file which has the paths to these files wrapped in `<script>` tags and using the `--include-in-header` flag with `pandoc` renders the plots. `rmarkdown::render` additionally includes themes (bootstrap) and some other options.
 
-Below is an example file: test.Rmd.
-
----
-title: "Using ggvis with knitr and rmarkdown"
-output:
-  html_document:
-    fig_width: 4
-    fig_height: 2
----
-
-```{r echo=FALSE}
-# Set up default dimensions. Width and height are multiplied by dpi to get
-# pixel dimensions.
-knitr::opts_chunk$set(fig.width = 4, fig.height = 3)
-```
-
-To embed a ggvis plot just call `ggvis`:
-
-```{r, message = FALSE}
-library(ggvis)
-mtcars %>% ggvis(x = ~wt, y = ~mpg) %>% layer_points()
-```
-
-
-```{r, fig.width = 8, fig.height = 6}
-mtcars %>% ggvis(x = ~wt, y = ~mpg) %>%
-  layer_points() %>%
-  layer_smooths()
-```
-knit_meta
-knit_meta_reset()
-```
+I used [this](https://raw.githubusercontent.com/rstudio/ggvis/master/demo/rmarkdown/html_document.Rmd) as my test page, and named it `test.Rmd`.
 
 This can be rendered first by using `rmarkdown::render("test.Rmd")`, which generates `test.html`.
 
