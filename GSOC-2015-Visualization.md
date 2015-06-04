@@ -37,4 +37,62 @@ A few other notes. I have left `plotLearnerPrediction` alone for now, as that wi
 
 I have, along the way, been using the `ggplot2`/`ggvis` defaults for the sizing of layers, rather than adding lots of arguments to the function to allow maximal user control. I think allowing lots of user control is undesirable for this sort of functionality, which, to my mind, is supposed to be for interactive use during the research process, not the generation of publication quality figures. For that we have exposed (or are in the process of exposing) all of the plot data generation functions, which allows users to create their own graphics. This has included removing some existing arguments which have created new `mlr` specific defaults.
 
-It is possible to embed static `ggvis` plots in `html` documents (dynamic visualizations are somehow converted to static versions with a warning). I have figured out that (seemingly) all of the rendering of .Rmd files with ggvis plots is done using [rmarkdown](https://github.com/rstudio/rmarkdown), specifically rmarkdown::render. This uses knitr first and then calls pandoc which now is packaged with RStudio (this is called by the "knit HTML" button in RStudio). I can generate html with embedded `ggvis` plots outside of RStudio using `rmarkdown::render`. The call to pandoc in `rmarkdown::render` has a bunch of arguments (including mathjax and so on, syntax highlighting, etc.). I think that one or more of these arguments is what makes `rmarkdown::render` work where as vanilla use of knitr to go from `Rmd` to `md` and pandoc to go from `md` to `html` does not (also the use of `knitr::knit2html` doesn't work). Looking at the raw html/markdown it is clear that the information for the `ggvis` plot is in there. Investigation continues...
+It is possible to embed static `ggvis` plots in `html` documents (dynamic visualizations are somehow converted to static versions with a warning). I have figured out that (seemingly) all of the rendering of .Rmd files with ggvis plots is done using [rmarkdown](https://github.com/rstudio/rmarkdown), specifically rmarkdown::render. This uses knitr first and then calls pandoc which now is packaged with RStudio (this is called by the "knit HTML" button in RStudio). The call to `knitr` is vanilla (no special options). However with `pandoc` it is necessary to include several javascript libraries which are packaged in `ggvis` for the plots to render in html. Specifically, `jquery`, `vega`, `lodash`, `d3`, and a `ggvis.js` file. All are minified and packaged with `ggvis`. Creating a html file which has the paths to these files wrapped in `<script>` tags and using the `--include-in-header` flag with `pandoc` renders the plots. `rmarkdown::render` additionally includes themes (bootstrap) and some other options.
+
+Below is an example file: test.Rmd.
+
+---
+title: "Using ggvis with knitr and rmarkdown"
+output:
+  html_document:
+    fig_width: 4
+    fig_height: 2
+---
+
+```{r echo=FALSE}
+# Set up default dimensions. Width and height are multiplied by dpi to get
+# pixel dimensions.
+knitr::opts_chunk$set(fig.width = 4, fig.height = 3)
+```
+
+To embed a ggvis plot just call `ggvis`:
+
+```{r, message = FALSE}
+library(ggvis)
+mtcars %>% ggvis(x = ~wt, y = ~mpg) %>% layer_points()
+```
+
+
+```{r, fig.width = 8, fig.height = 6}
+mtcars %>% ggvis(x = ~wt, y = ~mpg) %>%
+  layer_points() %>%
+  layer_smooths()
+```
+knit_meta
+knit_meta_reset()
+```
+
+This can be rendered first by using `rmarkdown::render("test.Rmd")`, which generates `test.html`.
+
+Alternatively you can first run `knitr`: `knitr::knit("test.Rmd", "test.md")`, create a file `test_include.html` shown below (this is the version automatically created by `rmarkdown::render` internally on my system).
+
+```{html}
+<script src="/Users/zmjones/Library/R/3.2/library/rmarkdown/rmd/h/jquery-1.11.0/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="/Users/zmjones/Library/R/3.2/library/rmarkdown/rmd/h/bootstrap-3.3.1/css/bootstrap.min.css" rel="stylesheet" />
+<script src="/Users/zmjones/Library/R/3.2/library/rmarkdown/rmd/h/bootstrap-3.3.1/js/bootstrap.min.js"></script>
+<script src="/Users/zmjones/Library/R/3.2/library/rmarkdown/rmd/h/bootstrap-3.3.1/shim/html5shiv.min.js"></script>
+<script src="/Users/zmjones/Library/R/3.2/library/rmarkdown/rmd/h/bootstrap-3.3.1/shim/respond.min.js"></script>
+<link href="/Users/zmjones/Library/R/3.2/library/ggvis/www/lib/jquery-ui/css/smoothness/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" />
+<script src="/Users/zmjones/Library/R/3.2/library/ggvis/www/lib/jquery-ui/js/jquery-ui-1.10.4.custom.min.js"></script>
+<script src="/Users/zmjones/Library/R/3.2/library/ggvis/www/lib/d3/d3.min.js"></script>
+<script src="/Users/zmjones/Library/R/3.2/library/ggvis/www/lib/vega/vega.min.js"></script>
+<script src="/Users/zmjones/Library/R/3.2/library/ggvis/www/lib/lodash/lodash.min.js"></script>
+<script>var lodash = _.noConflict();</script>
+<link href="/Users/zmjones/Library/R/3.2/library/ggvis/www/ggvis/css/ggvis.css" rel="stylesheet" />
+<script src="/Users/zmjones/Library/R/3.2/library/ggvis/www/ggvis/js/ggvis.js"></script>
+```
+
+Rendering to html can be handled by calling `pandoc` from the command line.
+
+`pandoc --include-in-header test_include.html test.md -o test.html`
