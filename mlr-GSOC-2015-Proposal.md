@@ -1,6 +1,4 @@
 a) On this page we will outline our GSOC 2015 project proposal
-IF THIS LINE IS HERE THE PROPOSAL IS NOT DONE YET!
-(We are nearly done)
 
 ## Projects
 
