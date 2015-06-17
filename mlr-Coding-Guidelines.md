@@ -28,7 +28,7 @@ Input / Output? What happens in the method? Mention really important details? Li
 For more complex stuff: Open up a clearly understandable issue. Best with a minimal and reproducing example. 
 
 * When adding a new plot function that requires more than extracting a part of an existing object and using `reshape`, add a "data generation" function which outputs an object that has an S3 class. For example
-`generateLearningCurveData` returns of an object of class `LearningCurveData` (a named list) which can be plotted with `plotLearningCurve`. This allows users to create custom plots easily with the "data generation" functions.
+`generateLearningCurveData` returns of an object of class `LearningCurveData` (a named list) which can be plotted with `plotLearningCurve`. This allows users to create custom plots easily with the "data generation" functions. Often it makes sense to put "data generation" and plotting functions in the same file, which is usually named, for example "generateLearningCurve.R".
 
 
 
