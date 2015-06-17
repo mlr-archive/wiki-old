@@ -27,6 +27,8 @@ Input / Output? What happens in the method? Mention really important details? Li
 * If you find a bug, always do this: Reproduce via test, THEN repair. Then make sure test runs. Reread the code piece again you touched. Can the structure be improved? If this can be done quickly, do it now.
 For more complex stuff: Open up a clearly understandable issue. Best with a minimal and reproducing example. 
 
+* When adding a new plot function that requires more than extracting a part of an existing object and using `reshape`, add a "data generation" function which outputs an object that has an S3 class. For example
+`generateLearningCurveData` returns of an object of class `LearningCurveData` (a named list) which can be plotted with `plotLearningCurve`. This allows users to create custom plots easily with the "data generation" functions.
 
 
 
