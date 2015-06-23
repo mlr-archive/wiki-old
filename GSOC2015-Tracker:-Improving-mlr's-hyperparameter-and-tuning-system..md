@@ -93,7 +93,7 @@ Here's a list of open issues, which are somehow related to hyperparameters, tuni
   * Add a tag that shows the name of the weight parameter (or ```NULL``` if such a parameter does not exist).
 
 
-1. [Issue #111:](https://github.com/berndbischl/mlr/issues/111)
+1. [Issue #111 **(SOLVED)**:](https://github.com/berndbischl/mlr/issues/111)
 
   **Add budget parameter for tuning.**
 
