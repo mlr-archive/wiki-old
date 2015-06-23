@@ -110,7 +110,7 @@ The following items should be promptly solvable:
 * [item 4 / issue #245 **(SOLVED)**](https://github.com/berndbischl/mlr/issues/245): get ```optPath``` within ```analyzeFeatselResult``` 
 * [item 5 / issue #242 **(SOLVED)**](https://github.com/berndbischl/mlr/issues/242):
  naming issue in case of nested tuning 
-* [item 12 / issue #111](https://github.com/berndbischl/mlr/issues/111): add a ```budget``` argument to tuning methods 
+* [item 12 / issue #111 **(SOLVED)**](https://github.com/berndbischl/mlr/issues/111): add a ```budget``` argument to tuning methods 
 
 ***
 
