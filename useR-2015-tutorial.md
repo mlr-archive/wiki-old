@@ -46,3 +46,11 @@ and enables reproducible experiments and meta analysis.
 * Model selection and hyper-parameter tuning
 * Interfacing the OpenML server with mlr
 
+# Hands on
+
+* Create a classification task for the  Ionosphere data set (package mlbench)
+* Remove constant features from the data set.
+* Fit a random forest on this task. Tune the parameters `mtry` and `nodesize`
+  using a 3-fold cross validation and the random search (see `?makeTuneControlRandom`).
+  Set the budget via `maxit` to 20.
+- Compare the mean misclassification error (mmce) with the results of single classification tree from the rpart package.
