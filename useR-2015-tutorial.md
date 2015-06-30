@@ -46,6 +46,15 @@ and enables reproducible experiments and meta analysis.
 * Model selection and hyper-parameter tuning
 * Interfacing the OpenML server with mlr
 
+# Install instructions
+Install the CRAN version of the package and some optional dependencies which are required for this tutorial:
+```{r}
+install.packages(c("glmnet", "gridExtra", "ggplot2", "ggvis", "kknn", 
+  "irace", "kernlab", "KMsurv", "mlbench", "mda", "mlr", "party", 
+  "randomForest", "randomForestSRC", "shiny", "sROC", "devtools", 
+  "survMisc", "BatchJobs", "e1071", "rjson"))
+```
+
 # Hands on
 
 * Create a classification task for the  Ionosphere data set (package mlbench).
