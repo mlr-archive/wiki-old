@@ -46,7 +46,7 @@ and enables reproducible experiments and meta analysis.
 * Model selection and hyper-parameter tuning
 * Interfacing the OpenML server with mlr
 
-# Install instructions
+## Install instructions
 Install the CRAN version of the package and some optional dependencies which are required for this tutorial:
 ```{r}
 install.packages(c("glmnet", "gridExtra", "ggplot2", "ggvis", "kknn", 
@@ -55,7 +55,10 @@ install.packages(c("glmnet", "gridExtra", "ggplot2", "ggvis", "kknn",
   "survMisc", "BatchJobs", "e1071", "rjson"))
 ```
 
-# Hands on
+## Slides and supplementary material
+You can find everything [here](https://github.com/mlr-org/user2015_tutorial).
+
+## Hands on
 
 * Create a classification task for the  Ionosphere data set (package mlbench).
 * Remove constant features from the data set.
