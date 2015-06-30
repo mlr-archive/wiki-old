@@ -48,9 +48,9 @@ and enables reproducible experiments and meta analysis.
 
 # Hands on
 
-* Create a classification task for the  Ionosphere data set (package mlbench)
+* Create a classification task for the  Ionosphere data set (package mlbench).
 * Remove constant features from the data set.
-* Fit a random forest on this task. Tune the parameters `mtry` and `nodesize`
+* Evaluate a random forest on this task. Tune the parameters `mtry` and `nodesize` (both from 1 to 10)
   using a 3-fold cross validation and the random search (see `?makeTuneControlRandom`).
   Set the budget via `maxit` to 20.
 - Compare the mean misclassification error (mmce) with the results of single classification tree from the rpart package.
