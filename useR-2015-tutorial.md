@@ -53,4 +53,5 @@ and enables reproducible experiments and meta analysis.
 * Evaluate a random forest on this task. Tune the parameters `mtry` and `nodesize` (both from 1 to 10)
   using a 3-fold cross validation and the random search (see `?makeTuneControlRandom`).
   Set the budget via `maxit` to 20.
-- Compare the mean misclassification error (mmce) with the results of single classification tree from the rpart package.
+* Compare the mean misclassification error (mmce) with the results of single classification tree from the rpart package.
+* NB: This is NOT really a proper evaluation of the tuned algorithm. But we have not learned nested CV so far :(
