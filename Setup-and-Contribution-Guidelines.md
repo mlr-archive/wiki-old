@@ -9,7 +9,7 @@ We assume that git is already installed on your local machine, if not follow [th
 
 Use `git clone` to clone this repo to your local machine:
 ```
-git clone https://github.com/berndbischl/mlr.git
+git clone https://github.com/mlr-org/mlr.git
 ```
 <br>
 `cd` into cloned repo:
@@ -41,12 +41,12 @@ Set the `upstream` to mlr parent repo:
 
 The easiest way is to use the https url:
 ```
-git remote add upstream https://github.com/berndbischl/mlr.git
+git remote add upstream https://github.com/mlr-org/mlr.git
 ```
 
 or if you have ssh set up you can use that url instead:
 ```
-git remote add upstream git://github.com/berndbischl/mlr.git
+git remote add upstream git://github.com/mlr-org/mlr.git
 ```
 
 ### Branching
@@ -75,8 +75,8 @@ Now all your changes on your current branch will be based on top of the changes 
 
 ## Contributing
 
-Once you're happy with your code, please open a [pull request for the main repository](https://github.com/berndbischl/mlr/pulls). This will automatically run [Travis CI](https://travis-ci.org/berndbischl/mlr) on your changes to see if it still builds and all the tests pass. The developer team will get notified automatically of your pull request.
+Once you're happy with your code, please open a [pull request for the main repository](https://github.com/mlr-org/mlr/pulls). This will automatically run [Travis CI](https://travis-ci.org/mlr-org/mlr) on your changes to see if it still builds and all the tests pass. The developer team will get notified automatically of your pull request.
 
-For more information on how to implement code for mlr, please see the [coding guidelines](https://github.com/berndbischl/mlr/wiki/mlr-Coding-Guidelines).
+For more information on how to implement code for mlr, please see the [coding guidelines](https://github.com/mlr-org/mlr/wiki/mlr-Coding-Guidelines).
 
-For some common tasks like integrating another learner or performance measure we have manuals in section "Extend" of the [mlr tutorial](http://berndbischl.github.io/mlr/tutorial/html/). 
+For some common tasks like integrating another learner or performance measure we have manuals in section "Extend" of the [mlr tutorial](http://mlr-org.github.io/mlr-tutorail/devel/html/). 
