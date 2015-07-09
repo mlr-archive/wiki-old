@@ -85,19 +85,22 @@ Here's a list of open issues, which are somehow related to hyperparameters, tuni
   Question:
   * Does that mean, we are looking for something, which uses different imputation techniques and tells you, which one works best?!
 
-1. [Issue #123:](https://github.com/berndbischl/mlr/issues/123)
+1. [Issue #123 **(SOLVED)**:](https://github.com/berndbischl/mlr/issues/123)
 
-  **Need information, whether a Learner allows weights.**
+  **Provide information, whether a learner allows the usage of class weights.**
 
-  Suggested solution:
-  * Add a tag that shows the name of the weight parameter (or ```NULL``` if such a parameter does not exist).
+  Solution:
+  * Extend the properties of the classification learners by an argument ```"class.weights"``` (if applicable).
+  * Add an argument ```class.weights.param```, indicating which parameter of the learner deals with the class weights.
+  * Create a getter-function, which extracts the entire class weights parameter.
+  * Use ```class.weights.param``` within ```makeWeightedClassesWrapper```.
 
 
 1. [Issue #111 **(SOLVED)**:](https://github.com/berndbischl/mlr/issues/111)
 
   **Add budget parameter for tuning.**
 
-  Suggested solution:
+  Solution:
   * Add a parameter ```budget``` within ```makeTuneControl```, which then again will be transferred to the corresponding parameters within each of the tuning methods.
 
 ***
