@@ -79,4 +79,4 @@ Once you're happy with your code, please open a [pull request for the main repos
 
 For more information on how to implement code for mlr, please see the [coding guidelines](https://github.com/mlr-org/mlr/wiki/mlr-Coding-Guidelines).
 
-For some common tasks like integrating another learner or performance measure we have manuals in section "Extend" of the [mlr tutorial](http://mlr-org.github.io/mlr-tutorail/devel/html/). 
+For some common tasks like integrating another learner or performance measure we have manuals in section "Extend" of the [mlr tutorial](http://mlr-org.github.io/mlr-tutorial/devel/html/). 
