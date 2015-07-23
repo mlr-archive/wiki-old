@@ -13,13 +13,17 @@ Here's a list of open issues, which are somehow related to hyperparameters, tuni
   * the user can set the argument ```digits``` in ```makeTuneControlIrace```, which will be used by ```tuneIrace```
 
 
-1. [Issue #267:](https://github.com/berndbischl/mlr/issues/267)
+1. [Issue #267 **(SOLVED)**:](https://github.com/berndbischl/mlr/issues/267)
 
   **Collect problems, where parameters depend on hyperparameters.**
 
   Planned approach:
 
   * keep watching ...
+
+  Solution:
+
+  * In the mean time this issue has already been solved...
 
 1. [Issue #246 **(SOLVED)**:](https://github.com/berndbischl/mlr/issues/246)
   
@@ -44,7 +48,7 @@ Here's a list of open issues, which are somehow related to hyperparameters, tuni
   Solution:
     * removes that prefix, when getting the threshold from the ```opt.path```
 
-1. [Issue #240:](https://github.com/berndbischl/mlr/issues/240)
+1. [Issue #240 **(UNASSIGNED)**:](https://github.com/berndbischl/mlr/issues/240)
 
   **Check infeasible settings of a learner, e.g.** ```makeLearner("classif.svm", type="C-classification", nu=2)```**.**
 
@@ -54,7 +58,7 @@ Here's a list of open issues, which are somehow related to hyperparameters, tuni
   Note:
     * **berndbischl** mentioned that he might want to take care of that issue.
 
-1. [Issue #225:](https://github.com/berndbischl/mlr/issues/225)
+1. [Issue #225 **(UNASSIGNED)**:](https://github.com/berndbischl/mlr/issues/225)
 
   **Find a way to deviate from the defaults of an implemented underlying learner.**
 
@@ -72,11 +76,9 @@ Here's a list of open issues, which are somehow related to hyperparameters, tuni
 
   **data dependent defaults (cf. first item of GSOC proposal)**
 
-  Suggested solution:
-  * write a function ```updateLearner```, which takes a learner and a ```task``` / ```data.frame``` and uses those to update data dependent parameters
-
-  Question:
-  * Should those parameters be explicitly listed in \texttt{updateLearner} or do you prefer, if the method just "knows", which parameters should be defined (and overwritten)?
+  Suggested Solution:
+  * first, I'll add a "getter", which is able to import the defaults from caret (***SOLVED***)
+  * second, allow the integration of data dependent defaults
 
 1. [Issue #202:](https://github.com/berndbischl/mlr/issues/202)
 
