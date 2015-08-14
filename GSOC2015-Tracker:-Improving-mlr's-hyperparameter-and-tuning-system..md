@@ -150,10 +150,7 @@ The two items below are very important issues and thus, were also part of the GS
 4. **The implemented learners should inform their users which parameters affect the performance of a model (and if possible in which degree)**
 
   This information could be evaluated in a two-step approach:
-    1. Pure 'technical' parameters should be identified by the user that is implementing the new learner. For the existing learners, I will check, which parameters are just 'technical' and which ones actually affect the performance.
-
-  * *solved*
-
+    1. Pure 'technical' parameters should be identified by the user that is implementing the new learner. For the existing learners, I will check, which parameters are just 'technical' and which ones actually affect the performance. *(solved)*
     2. In a second step, I suggest to benchmark the effect of parameter configurations on the performance. As those configurations will very likely be task-dependent, I would write a function that allows to benchmark the parameter influence based on the learner and task. 
 
       In a first approach, that benchmark-function should analyze, how the performance changes, when only a single parameter of the learner (compared to the default settings) is changed. However, as the performance will very likely also be influenced by interactions between parameter configurations, I will also try to implement an interaction-influence-check as well - if the time permits that.
