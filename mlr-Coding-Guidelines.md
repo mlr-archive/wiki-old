@@ -10,6 +10,10 @@ Input / Output? What happens in the method? Mention really important details? Li
 
 * Every longer, more complex operation get commented properly in code. See style guide.
 
+* Every methodical function and method should be explained and quoted.
+** Explain in roughly in the documentation so that reading the paper is not necessary for a basic understanding.
+** Quote the paper using roxygen `@references`.
+
 * We like Michel's "dt" tool here. Maybe you like it too? 
   https://github.com/tudo-r/dt
 
