@@ -6,3 +6,6 @@ I am professor of computational statistics at the LMU Munich. I created mlr a lo
 
 ## Lars Kotthoff
 I am a postdoctoral researcher at the University of British Columbia. My main contributions to mlr include support for clustering algorithms. Apart from that I'm usually fighting Travis in one way or another.
+
+## Giuseppe Casalicchio
+I am a PhD student at the LMU Munich and member of the computational statistics working group. I added support for several stacking algorithms.
