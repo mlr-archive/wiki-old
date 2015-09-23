@@ -11,7 +11,7 @@ https://github.com/ginatrapani/todo.txt-android/wiki/Squash-All-Commits-Related-
 Code readable, commented and follows [style guide](https://github.com/tudo-r/PackagesInfo/wiki/R-Style-Guide)?
   - Is it an API change? Has the documentation at **all** relevant places been adapted? This includes the tutorial.
   - **The old API cannot be changed so existing client code breaks**. Sometimes such a change is unavoidable and preferable to improve the structure and the exported names of the package. Then use the “deprecate” mechanism explained below.
-- After merging a pull request, rerun the latest [mlr tutorial build](https://travis-ci.org/mlr-org/mlr-tutorial). Unfortunately there's no sensible way to automate this at the moment, so please trigger the build manually to make sure that the tutorial wasn't broken by the change.
+- After merging a pull request, **rerun the latest [mlr tutorial build](https://travis-ci.org/mlr-org/mlr-tutorial)**. Unfortunately there's no sensible way to automate this at the moment, so please trigger the build manually to make sure that the tutorial wasn't broken by the change.
 
 ## General rules
 
