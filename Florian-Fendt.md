@@ -1,0 +1,1 @@
+I am a master's student at the LMU in Munich and joined the working group of Computational Statistics in May 2015 and started working on mlr in August. I will be working on the implementation of Time Series Analysis for my master's thesis.
