@@ -9,3 +9,6 @@ I am a postdoctoral researcher at the University of British Columbia. My main co
 
 ## Giuseppe Casalicchio
 I am a PhD student at the LMU Munich and member of the computational statistics working group. I added support for several stacking algorithms.
+
+## Zachary Jones
+I am a PhD student at Pennsylvania State University and a former Google Summer of Code student. I work mainly on visualization.
