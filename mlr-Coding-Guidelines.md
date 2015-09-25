@@ -116,6 +116,4 @@ Now all your changes on your current branch will be based on top of the changes 
 
 Once you're happy with your code, please open a [pull request for the main repository](https://github.com/mlr-org/mlr/pulls). This will automatically run [Travis CI](https://travis-ci.org/mlr-org/mlr) on your changes to see if it still builds and all the tests pass. The developer team will get notified automatically of your pull request.
 
-For more information on how to implement code for mlr, please see the [coding guidelines](https://github.com/mlr-org/mlr/wiki/mlr-Coding-Guidelines).
-
 For some common tasks like integrating another learner or performance measure we have manuals in section "Extend" of the [mlr tutorial](http://mlr-org.github.io/mlr-tutorial/devel/html/). 
