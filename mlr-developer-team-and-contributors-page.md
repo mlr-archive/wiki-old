@@ -10,6 +10,9 @@ I am a postdoc at the TU Dortmund and one of the main developers of mlr. I've wo
 ## Lars Kotthoff
 I am a postdoctoral researcher at the University of British Columbia. My main contributions to mlr include support for clustering algorithms. Apart from that I'm usually fighting Travis in one way or another.
 
+## Jakob Richter [![Github Logo](http://www.turshija.com/signature/github.png)](https://github.com/jakob-r)
+PhD Student in Statistics at TU Dortmund. Working on mlr since 2012. Always wanting to add some functionality, ending up revising a lot of stuff.
+
 ## Giuseppe Casalicchio
 I am a PhD student at the LMU Munich and member of the computational statistics working group. I added support for several stacking algorithms.
 
