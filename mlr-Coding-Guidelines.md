@@ -35,6 +35,7 @@ Read those if you are new to the project.
 - If you do change the API:
   - Deprecate the old code, use [`.Deprecated()`](https://stat.ethz.ch/R-manual/R-devel/library/base/html/Deprecated.html) at the beginning of the deprecated method. This only outputs a warning, it doesn’t automatically call the new function.
   - Carefully explain in NEWS what you did.
+ - Reference functions in package that are in suggests using `::`, e.g., `package::function`, but do not explicitly reference functions in packages that are imported.
 
 Setup & Contribution Guidelines
 =========
