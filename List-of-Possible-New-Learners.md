@@ -1,7 +1,6 @@
 Here is a (surely not complete) list of learners which we would like to support in the nearer future.  
 We always welcome others to contribute, so feel free to add learners from this list, or any learner you like, to mlr.  
-Before you start working on integrating one of the learners please open an issue in our [issue tracker](https://github.com/mlr-org/mlr/issues),  
-so we can update this page before effort is duplicated.    
+Before you start working on integrating one of the learners please open an issue in our [issue tracker](https://github.com/mlr-org/mlr/issues), so we can update this page before effort is duplicated.    
 You can find help on how to integrate learners in the [tutorial](http://mlr-org.github.io/mlr-tutorial/devel/html/create_learner/index.html).  
 If you are a new developer it's best to peak into our [coding guidelines](https://github.com/mlr-org/mlr/wiki/mlr-Coding-Guidelines) and [style guide](https://github.com/rdatsci/PackagesInfo/wiki/R-Style-Guide) first.
 
