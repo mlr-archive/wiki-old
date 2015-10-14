@@ -6,7 +6,6 @@ You can find help on how to integrate learners in the [tutorial](http://mlr-org.
 If you are a new developer it's best to peak into our [coding guidelines](https://github.com/mlr-org/mlr/wiki/mlr-Coding-Guidelines) and [style guide](https://github.com/rdatsci/PackagesInfo/wiki/R-Style-Guide) first.
 
 
-***
 
    |    Package     |  Function     |                          Brief Description            | Comment    |
 :--|  :----------:  |  :---------:  |                          :-----------------:          | :------:   |
