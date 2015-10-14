@@ -63,4 +63,4 @@ If you are a new developer it's best to peak into our [coding guidelines](https:
 53 |      superpc   |   superpc     |            Supervised Principal Component Analysis    |            |
 54 |         vbmp   | vbmpRadial    | Variational Bayesian Multinomial Probit Regression    |            |
 55 |        laGP    |    newGP      |                   Gaussian Process                    |            |
-56 |        mlegp   |    mleGP      |                   Gaussian Process                    |            |
+56 |        mlegp   |    mlegp      |                   Gaussian Process                    |            |
