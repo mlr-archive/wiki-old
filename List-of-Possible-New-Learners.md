@@ -62,3 +62,5 @@ If you are a new developer it's best to peak into our [coding guidelines](https:
 52 |        stats   |       ppr     |                    Projection Pursuit Regression      |            |
 53 |      superpc   |   superpc     |            Supervised Principal Component Analysis    |            |
 54 |         vbmp   | vbmpRadial    | Variational Bayesian Multinomial Probit Regression    |            |
+55 |        laGP    |    newGP      |                   Gaussian Process                    |            |
+55 |        mlegp   |    mleGP      |                   Gaussian Process                    |            |
