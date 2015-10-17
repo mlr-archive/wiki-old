@@ -18,3 +18,6 @@ I am a PhD student at the LMU Munich and member of the computational statistics 
 
 ## [![Github Avatar](https://avatars0.githubusercontent.com/u/1114501?v=3&s=32)](https://github.com/zmjones) Zachary Jones
 I am a PhD student at Pennsylvania State University and a former Google Summer of Code student. I work mainly on visualization.
+
+## [![Github Avatar](https://avatars0.githubusercontent.com/u/373643?v=3&s=32)](https://github.com/studerus) Erich Studerus
+I am postdoc psychologist at the University of Basel Psychiatrics Clinics. I added support for several learners and filtering methods. 
