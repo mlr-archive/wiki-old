@@ -21,3 +21,6 @@ I am a PhD student at Pennsylvania State University and a former Google Summer o
 
 ## [![Github Avatar](https://avatars0.githubusercontent.com/u/373643?v=3&s=32)](https://github.com/studerus) Erich Studerus
 I am postdoc psychologist at the University of Basel Psychiatrics Clinics. I added support for several learners and filtering methods. 
+
+## [![Github Avatar](https://avatars0.githubusercontent.com/u/373643?v=3&s=32)](https://github.com/schiffner) Julia Schiffner
+I am a researcher at Heinrich Heine University Düsseldorf. I work mainly on expanding and improving the tutorial.
