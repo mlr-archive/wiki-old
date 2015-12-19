@@ -26,8 +26,8 @@ Read those if you are new to the project.
   - Cite the paper using roxygen @references [Author A], [Author B], and [Author C]; [Title: Subtitle], [Journal Volume x] ([Year]), ..., [?Pages].
 - We like [Michel's "rt" tool](https://github.com/rdatsci/rt) here. Maybe you like it too?
 - Before you push you will run at least once at the end
-  - The relevant unit tests. Often this is the group "base" with "dt test --filter=base".
-  - "R CMD check" or "dt check". No errors, warnings, notes!
+  - The relevant unit tests. Often this is the group "base" with "rtest --filter=base".
+  - "R CMD check" or "rcheck". No errors, warnings, notes!
 - Your unit tests and R examples will be the perfect compromise between
   - They test / demo everything relevant.
   - They run really fast. Maybe in much less then a second. Yes, sometimes difficult, but work on it.
