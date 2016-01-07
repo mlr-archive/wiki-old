@@ -114,6 +114,15 @@ git rebase master
 ```
 Now all your changes on your current branch will be based on top of the changes in *master* branch.
 
+## Testing
+
+mlr has a lot of tests for all sorts of functionality. Unfortunately, this makes it quite hard to run as a lot of packages need to be installed for everything to pass. There are several ways to run the tests locally:
+
+- Use `devtools::test` with a filter, for example `devtools::test(filter = "ModelMultiplexer")` to check a particular file and later, when that runs, check whether your code affected other parts of mlr run the test group "base": `devtools::test(filter = "base")`. There are more tests, but the main functionality is covered by the "base" group.
+- You can also run tests from the command line, with a fully installed development version of mlr. You can use the [rt tool](https://github.com/rdatsci/rt) for this, for example `rtest --filter=ModelMultiplexer` or `rtest --filter=base`.
+
+To make really sure, we run Travis CI for every commit and pull request. This is your safety net that will check everything for you, so don't worry if you absolutely cannot get something to work on your machine!
+
 ## Contributing
 
 Once you're happy with your code, please open a [pull request for the main repository](https://github.com/mlr-org/mlr/pulls). This will automatically run [Travis CI](https://travis-ci.org/mlr-org/mlr) on your changes to see if it still builds and all the tests pass. The developer team will get notified automatically of your pull request.
