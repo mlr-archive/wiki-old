@@ -7,7 +7,7 @@ We use a git “gatekeeper” workflow model, where every code change to the mas
   - Commits squashed into 1 with a meaningful commit message, see
 https://github.com/ginatrapani/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit
   - Unit tests added/changed as appropriate. **Every** detected bug, major addition or change must result in a **new, good test**.
-  - NEWS: Is it an API / behavior change wrt to the prior version? Then a line must be in **NEWS**.
+  - NEWS: Is it an API / behavior change wrt to the prior version? Mention what should be in **NEWS** in the pull request please, the person who merges the PR will put this in **NEWS**. Please don't modify **NEWS** directly as this tends to cause merge conflicts.
 Code readable, commented and follows [style guide](https://github.com/tudo-r/PackagesInfo/wiki/R-Style-Guide)?
   - Is it an API change? Has the documentation at **all** relevant places been adapted? This includes the tutorial.
   - **The old API cannot be changed so existing client code breaks**. Sometimes such a change is unavoidable and preferable to improve the structure and the exported names of the package. Then use the “deprecate” mechanism explained below.
