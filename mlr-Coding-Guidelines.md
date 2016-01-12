@@ -34,7 +34,7 @@ Read those if you are new to the project.
 - If you find a bug, always do this: Reproduce via test, THEN repair. Then make sure test runs. Reread the code piece again you touched. Can the structure be improved? If this can be done quickly, do it now. For more complex stuff: Open up a clearly understandable issue. Best with a minimal example that reproduces the bug.
 - If you do change the API:
   - Deprecate the old code, use [`.Deprecated()`](https://stat.ethz.ch/R-manual/R-devel/library/base/html/Deprecated.html) at the beginning of the deprecated method. This only outputs a warning, it doesn’t automatically call the new function.
-  - Carefully explain in NEWS what you did.
+  - Carefully explain what you did so we can add that information to NEWS.
  - Reference functions in package that are in suggests using `::`, e.g., `package::function`, but do not explicitly reference functions in packages that are imported.
 
 Setup & Contribution Guidelines
