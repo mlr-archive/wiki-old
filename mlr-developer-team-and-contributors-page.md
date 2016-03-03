@@ -28,6 +28,6 @@ I am a researcher at Heinrich Heine University Düsseldorf. I work mainly on exp
 ## [![Github Avatar](https://avatars0.githubusercontent.com/u/13407676?v=3&s=32)](https://github.com/florianfendt) Florian Fendt
 I am a Master's student at the LMU Munich and member of the computational statistics working group. I'm helping to clean up the issue tracker in general and will be implementing time series tasks in the course of my Master's Thesis.
 
-## [![Github Avatar][(https://avatars0.githubusercontent.com/u/7313671?v=3&s=32)](https://github.com/pfistfl) 
+## [![Github Avatar](https://avatars0.githubusercontent.com/u/7313671?v=3&s=32)](https://github.com/pfistfl) 
 Florian Pfisterer
 Master's Student at LMU Munich, implemented some visualizations on BenchmarkResults and hopefully some more in the future.
