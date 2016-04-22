@@ -4,7 +4,7 @@ We use a git “gatekeeper” workflow model, where every code change to the mas
 - Every major change to **mlr’s core system**, i.e., training, resampling, wrappers, etc, should be **reviewed by 2 persons**.
 - Here is a minimal check list before pull requests can be merged. Do **not** deviate from this without asking / a proper reason!  
   - Travis passes. But also **always** check the output for NOTES and WARNINGS from the R check.
-  - Commits squashed into 1 with a meaningful commit message, see
+  - The pull request can contain multiple commits, they will be squashed when the pull request is merged. But you can also squash your commits into 1 with a meaningful commit message yourself, see
 https://github.com/ginatrapani/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit
   - Unit tests added/changed as appropriate. **Every** detected bug, major addition or change must result in a **new, good test**.
   - NEWS: Is it an API / behavior change wrt to the prior version? Mention what should be in NEWS in the pull request please, the person who merges the PR will put this in NEWS. Please don't modify NEWS directly as this tends to cause merge conflicts.
