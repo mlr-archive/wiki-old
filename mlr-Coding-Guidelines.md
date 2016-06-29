@@ -5,8 +5,7 @@ We use a git “gatekeeper” workflow model, where every code change to the mas
 - Here is a minimal check list before pull requests can be merged. Do **not** deviate from this without asking / a proper reason!  
   - Travis passes. But also **always** check the output for NOTES and WARNINGS from the R check.
   - Check that your branch is on the same state as master. If not, rebase! pull updates for master and your branch, switch on your branch and rebase. Then you can do the PR. See https://github.com/edx/edx-platform/wiki/How-to-Rebase-a-Pull-Request
-  - The pull request can contain multiple commits, they will be squashed when the pull request is merged. But you can also squash your commits into 1 with a meaningful commit message yourself, see
-https://github.com/ginatrapani/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit
+  - The pull request can contain multiple commits, they will be squashed when the pull request is merged. Since this can be done automatically by maintainers on GitHub, it's not necessary for you to squash to 1 commit yourself. Make sure the 1st commit message is meaningful.
   - Unit tests added/changed as appropriate. **Every** detected bug, major addition or change must result in a **new, good test**.
   - NEWS: Is it an API / behavior change wrt to the prior version? Mention what should be in NEWS in the pull request please, the person who merges the PR will put this in NEWS. Please don't modify NEWS directly as this tends to cause merge conflicts.
 Code readable, commented and follows [style guide](https://github.com/tudo-r/PackagesInfo/wiki/R-Style-Guide)?
