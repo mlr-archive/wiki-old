@@ -1,1 +1,0 @@
-PhD Student at IBE, LMU Munich. Added (parts of) the multilabel classification into mlr. Doing benchmarks on OpenML datasets with mlr, for comparison of learners and for getting good default hyperparameters for learners. 
