@@ -6,7 +6,7 @@ We use a git “gatekeeper” workflow model, where every code change to the mas
   - Travis passes. But also **always** check the output for NOTES and WARNINGS from the R check.
   - Check that your branch is on the same state as master. If not, rebase! pull updates for master and your branch, switch on your branch and rebase. Then you can do the PR. See https://github.com/edx/edx-platform/wiki/How-to-Rebase-a-Pull-Request
   - The pull request can contain multiple commits, they will be squashed when the pull request is merged. Since this can be done automatically by maintainers on GitHub, it's not necessary for you to squash to 1 commit yourself. Make sure the 1st commit message is meaningful.
-  - Unit tests added/changed as appropriate. **Every** detected bug, major addition or change must result in a **new, good test**.
+  - Unit tests added/changed as appropriate. **Every** detected bug, major addition or change must result in a **new, good test**. If your test relies on specific learner behavior, use a [mock learner](https://github.com/mlr-org/mlr/blob/master/tests/testthat/helper_mock_learners.R).
   - Did you think carefully about the names (especially exported functions) that you introduced? This is very important and hard to change later.
   - Please use the proper Roxygen tags/templates in the documentation. See [this directory](https://github.com/mlr-org/mlr/tree/master/man-roxygen) for templates we use.
   - Did you document all arguments and return values, including their types? Did you include references to relevant papers?
