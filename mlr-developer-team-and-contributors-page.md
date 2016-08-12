@@ -34,6 +34,5 @@ Master's Student at LMU Munich, implemented some visualizations on BenchmarkResu
 ## [![Github Avatar](https://avatars0.githubusercontent.com/u/11573242?v=3&s=40)](https://github.com/philipppro) Philipp Probst
 PhD Student at IBE, LMU Munich. Implemented (parts of) the multilabel classification in mlr. Currently doing benchmarks on OpenML datasets with mlr, comparing different learners and getting informations and good defaults for hyperparameters of implemented learners.
 
-## [![Github Avatar](https://avatars1.githubusercontent.com/u/7561944?v=3&s=40)](https://github.com/ja-thomas)
-Janek Thomas
+## [![Github Avatar](https://avatars1.githubusercontent.com/u/7561944?v=3&s=40)](https://github.com/ja-thomas) Janek Thomas
 PhD Student at LMU Munich and member of the computational statistics working group. I'm interested in variable selection and hyperparameter tuning, especially for gradient boosting. I work on variable importance, tuning and  preprocessing wrappers.
