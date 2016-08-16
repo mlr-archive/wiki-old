@@ -1,7 +1,7 @@
 We use a git “gatekeeper” workflow model, where every code change to the master branch, whether from the main developers or outside contributors, should be a pull request, which is then checked and possibly refined through reviews. How this works in detail is outlined below. If you have questions, feel free to ask in the tracker, we are happy to help.
 
 - Every change to the code **must** be a pull request. Lars, Michel and Bernd have the license to directly push to the master branch and merge PRs. But it is strongly encouraged that they issue pull requests, too. Nobody should merge his own PR. Before you issue or update the pull request, please rebase onto master.
-- Use a descriptive title. Add some text explaining what you did and what the purpose is. Include examples of any new output, plots, etc.
+- Use a descriptive title. Add some text explaining what you did and what the purpose is. Include examples of any new output, plots, etc. And please refer to the issue you are dealing with by a link in the text. Including the number in the title is good, but this is not clickable.
 - Every major change to **mlr’s core system**, i.e., training, resampling, wrappers, etc, should be **reviewed by 2 persons**.
 - Here is a minimal check list before pull requests can be merged. Do **not** deviate from this without asking / a proper reason!  
   - Travis passes. But also **always** check the output for NOTES and WARNINGS from the R check.
