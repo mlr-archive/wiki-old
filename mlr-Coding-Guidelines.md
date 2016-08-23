@@ -44,6 +44,7 @@ Read those if you are new to the project.
   - Deprecate the old code, use [`.Deprecated()`](https://stat.ethz.ch/R-manual/R-devel/library/base/html/Deprecated.html) at the beginning of the deprecated method. This only outputs a warning, it doesn’t automatically call the new function.
   - Carefully explain what you did so we can add that information to NEWS.
  - Reference functions in package that are in suggests using `::`, e.g., `package::function`, but do not explicitly reference functions in packages that are imported.
+ - Please use a spellchecker, especially for documentation. In rstudio you can start a spellcheck with F7.              
 
 Setup & Contribution Guidelines
 =========
