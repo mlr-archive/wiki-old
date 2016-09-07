@@ -23,7 +23,7 @@ I am a PhD student at Pennsylvania State University and a former Google Summer o
 I am postdoc psychologist at the University of Basel Psychiatrics Clinics. I added support for several learners and filtering methods. 
 
 ## [![Github Avatar](https://avatars0.githubusercontent.com/u/8244303?v=3&s=32)](https://github.com/schiffner) Julia Schiffner
-I am a researcher at Heinrich Heine University Düsseldorf. I work mainly on expanding and improving the tutorial, but also do nice things for mlr.
+I am a researcher at Heinrich Heine University Düsseldorf. I work mainly on expanding and improving the tutorial, but also do nice things for mlr itself.
 
 ## [![Github Avatar](https://avatars0.githubusercontent.com/u/13407676?v=3&s=32)](https://github.com/florianfendt) Florian Fendt
 I am a Master's student at the LMU Munich and member of the computational statistics working group. I'm helping to clean up the issue tracker in general and will be implementing time series tasks in the course of my Master's Thesis.
