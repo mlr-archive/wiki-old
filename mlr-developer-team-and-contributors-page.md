@@ -36,3 +36,6 @@ PhD Student at IBE, LMU Munich. Implemented (parts of) the multilabel classifica
 
 ## [![Github Avatar](https://avatars1.githubusercontent.com/u/7561944?v=3&s=40)](https://github.com/ja-thomas) Janek Thomas
 PhD Student at LMU Munich and member of the computational statistics working group. I'm interested in variable selection and hyperparameter tuning, especially for gradient boosting. I work on variable importance, tuning and  preprocessing wrappers.
+
+## [![Github Avatar](https://avatars0.githubusercontent.com/u/9919?v=3&s=32)](https://github.com/catastrophic-failure) Bruno Hebling Vieira
+BSc in Medical Physics and currently pursuing a MSc in Physics Applied to Medicine and Biology from the University of São Paulo (USP). I'm committed to add new useful measures and learners to mlr.
