@@ -40,6 +40,5 @@ PhD Student at LMU Munich and member of the computational statistics working gro
 ## [![Github Avatar](https://avatars0.githubusercontent.com/u/9919?v=3&s=32)](https://github.com/catastrophic-failure) Bruno Hebling Vieira
 BSc in Medical Physics and currently pursuing a MSc in Physics Applied to Medicine and Biology from the University of São Paulo (USP). I'm committed to add new useful measures and learners to mlr.
 
-## [![Github Avatar](https://avatars2.githubusercontent.com/u/4913951?v=3&s=32)](https://github.com/MasonGallo)
-Mason Gallo
-I am a graduate student at Georgia Tech with industry experience in machine learning. I implemented hyperparameter tuning visualization, and I also work on other various parts of mlr and the tutorial.
+## [![Github Avatar](https://avatars2.githubusercontent.com/u/4913951?v=3&s=32)](https://github.com/MasonGallo) Mason Gallo
+I am a graduate student at Georgia Tech with industry experience in machine learning. I implemented hyperparameter tuning visualization, and I also work on various parts of mlr along with the tutorial.
