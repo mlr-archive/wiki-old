@@ -42,3 +42,6 @@ BSc in Medical Physics and currently pursuing a MSc in Physics Applied to Medici
 
 ## [![Github Avatar](https://avatars2.githubusercontent.com/u/4913951?v=3&s=32)](https://github.com/MasonGallo) Mason Gallo
 I am a graduate student at Georgia Tech with industry experience in machine learning. I implemented hyperparameter tuning visualization, and I also work on various parts of mlr along with the tutorial.
+
+## [![Github Avatar](https://avatars3.githubusercontent.com/u/15329438?v=3&s=32)](https://github.com/QuayAu) Quay Au
+I am a PhD student at LMU Munich and member of the computational statistics working group. I implemented several multilabel algorithms.
