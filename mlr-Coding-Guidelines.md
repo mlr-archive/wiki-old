@@ -1,12 +1,12 @@
 We use a git “gatekeeper” workflow model, where every code change to the master branch, whether from the main developers or outside contributors, should be a pull request, which is then checked and possibly refined through reviews. How this works in detail is outlined below. If you have questions, feel free to ask in the tracker, we are happy to help.
 
-- Every change to the code **must** be a pull request. Lars, Michel and Bernd have the license to directly push to the master branch and merge PRs. But it is strongly encouraged that they issue pull requests, too. Nobody should merge his own PR. Before you issue or update the pull request, please rebase onto master.
+- Every change to the code **must** be a pull request. Lars, Michel and Bernd have the license to directly push to the master branch and merge PRs. But it is strongly encouraged that they issue pull requests, too. Nobody should merge his own PR.
+- To update a branch, pull in the latest updates from the master with a **merge**. Do not rebase, especially if multiple people are working on the same branch.
 - Use a descriptive title. Add some text explaining what you did and what the purpose is. Include examples of any new output, plots, etc. And please refer to the issue you are dealing with by a link in the text. Including the number in the title is good, but this is not clickable.
 - Every major change to **mlr’s core system**, i.e., training, resampling, wrappers, etc, should be **reviewed by 2 persons**.
 - Here is a minimal check list before pull requests can be merged. Do **not** deviate from this without asking / a proper reason!  
-  - Travis passes. But also **always** check the output for NOTES and WARNINGS from the R check.
-  - Check that your branch is on the same state as master. If not, rebase! pull updates for master and your branch, switch on your branch and rebase. Then you can do the PR. See https://github.com/edx/edx-platform/wiki/How-to-Rebase-a-Pull-Request
-  - The pull request can contain multiple commits, they will be squashed when the pull request is merged. Since this can be done automatically by maintainers on GitHub, it's not necessary for you to squash to 1 commit yourself. Make sure the 1st commit message is meaningful.
+  - Travis passes. But also **always** check the output for NOTES and WARNINGS from R
+  - The pull request can contain multiple commits, they will be squashed when the pull request is merged. Since this is done automatically by GitHub, it's not necessary for you to squash to 1 commit yourself.
   - Unit tests added/changed as appropriate. **Every** detected bug, major addition or change must result in a **new, good test**. If your test relies on specific learner behavior, use a [mock learner](https://github.com/mlr-org/mlr/blob/master/tests/testthat/helper_mock_learners.R).
   - Did you think carefully about the names (especially exported functions) that you introduced? This is very important and hard to change later.
   - Please use the proper Roxygen tags/templates in the documentation. See [this directory](https://github.com/mlr-org/mlr/tree/master/man-roxygen) for templates we use.
@@ -19,6 +19,8 @@ We use a git “gatekeeper” workflow model, where every code change to the mas
 Code readable, commented and follows [style guide](https://github.com/tudo-r/PackagesInfo/wiki/R-Style-Guide)?
   - Is it an API change? Has the documentation at **all** relevant places been adapted? This includes the tutorial.
   - **The old API cannot be changed so existing client code breaks**. Sometimes such a change is unavoidable and preferable to improve the structure and the exported names of the package. Then use the “deprecate” mechanism explained below.
+  - Make sure that no document files (*.rd), NAMESPACE and DESCRIPTION file(s) are changed, as they will be updated automatically.
+  - Make sure that the only changed files are the ones related to the PR. It can happen from time to time that your editor will add/remove whitespaces automatically.
 - After merging a pull request, **rerun the latest [mlr tutorial build](https://travis-ci.org/mlr-org/mlr-tutorial)**. Unfortunately there's no sensible way to automate this at the moment, so please trigger the build manually to make sure that the tutorial wasn't broken by the change.
 - You don't need to update the documentation. Travis does this automatically.
 
@@ -116,12 +118,12 @@ git fetch upstream
 git merge upstream/master
 ```
 
-Then change back to your new branch and rebase your changes.
+Then change back to your new branch and merge your changes.
 ```
 git checkout new_branch
-git rebase master
+git merge master
 ```
-Now all your changes on your current branch will be based on top of the changes in *master* branch.
+Now all changes from the *master* will be in your current branch.
 
 ## Testing
 
