@@ -1,12 +1,16 @@
-Here is a (surely not complete) list of learners which we would like to support in the nearer future.  
-We always welcome others to contribute, so feel free to add learners from this list, or any learner you like, to mlr.  
-Before you start working on integrating one of the learners please open an issue in our [issue tracker](https://github.com/mlr-org/mlr/issues), so we can update this page before effort is duplicated.    
-You can find help on how to integrate learners in the [tutorial](http://mlr-org.github.io/mlr-tutorial/devel/html/create_learner/index.html).  
-If you are a new developer it's best to peak into our [coding guidelines](https://github.com/mlr-org/mlr/wiki/mlr-Coding-Guidelines) and [style guide](https://github.com/rdatsci/PackagesInfo/wiki/R-Style-Guide) first.
+Here is a (surely not complete) list of possible enhancements to mlr which we would like to support in the nearer future. 
 
+We especially welcome others to contribute, so feel free to add your ideas below, including any relevant information about the possible extension and why it may be important for users.  
 
+We also welcome anyone to work on any of the enhancements mentioned on this page. Before you start working on integrating anything below, please open an issue in our [issue tracker](https://github.com/mlr-org/mlr/issues) and let us know, so we can update this page and ensure effort is not duplicated.    
 
-   |      Package     |   Function     |                                     Brief Description            | Comment    |
+If you are a new developer, please first check out our [coding guidelines](https://github.com/mlr-org/mlr/wiki/mlr-Coding-Guidelines) and [style guide](https://github.com/rdatsci/PackagesInfo/wiki/R-Style-Guide) before working on any of the enhancements below.
+
+# New Learners From Existing R Package
+
+- Check out the tutorial guide for [custom learners](http://mlr-org.github.io/mlr-tutorial/devel/html/create_learner/index.html) for guidance
+
+   |      Number     |   Package     |                                     Method            | Description    |
 :--|    :----------:  |   :---------:  |                                     :-----------------:          | :------:   |
 1  |        adaptDA   |        amdai   |                         Adaptive Mixture Discriminant Analysis   |            |
 2  |            arm   |     bayesglm   |                              Bayesian Generalized Linear Model   |            |
@@ -89,3 +93,34 @@ If you are a new developer it's best to peak into our [coding guidelines](https:
 79 |           sprm   |        prmda   |                           Robust PLS for binary classification   |            |
 80 |           sprm   |       sprmda   |                Sparse and robust PLS for binary classification   |            |
 81 |           vbmp   |   vbmpRadial   |             Variational Bayesian Multinomial Probit Regression   |            |                    
+
+# Speculative Enhancements
+
+- These are ideas from the mlr community
+
+ |      Idea     |   Ref Issue    |
+:--|    :----------:  |:----------:
+1 | Making a super learner from base learners applied to different parts of the data | [#153](https://github.com/mlr-org/mlr/issues/153)
+2 | Sparse matrix support | [#453](https://github.com/mlr-org/mlr/issues/471)
+3 | Score output for classes | [#355](https://github.com/mlr-org/mlr/issues/355)
+4 | Smote for multiclass problems | [#905](https://github.com/mlr-org/mlr/issues/905)
+5 | Impute wrappers for established packages | [#156](https://github.com/mlr-org/mlr/issues/156)
+6 | Subsampling ensemble variance estimator | [#740](https://github.com/mlr-org/mlr/issues/740)
+7 | Ordinal classification | [#852](https://github.com/mlr-org/mlr/issues/852)
+8 | makeBaggingWrapper for survival tasks | [#877](https://github.com/mlr-org/mlr/issues/877)
+9 | Unified logging | [#544](https://github.com/mlr-org/mlr/issues/544)
+10 | Feature selection for clustering | [#541](https://github.com/mlr-org/mlr/issues/541)
+11 | Confidence intervals in prediction | [#843](https://github.com/mlr-org/mlr/issues/843)
+12 | Allow general model formulas | [#564](https://github.com/mlr-org/mlr/issues/564)
+13 | Parallelization of underlying model fit | None
+14 | Stability selection | None
+15 | Method to create polynomial features | [#645](https://github.com/mlr-org/mlr/issues/645)
+16 | Calibration and calibration slope | [#842](https://github.com/mlr-org/mlr/issues/842)
+17 | Allow more stopping criteria for feature wrapper | [#104](https://github.com/mlr-org/mlr/issues/104)
+18 | Use criterion function for feature selection | [#666](https://github.com/mlr-org/mlr/issues/666)
+19 | Allow mandatory covariates during filtering/feature selection | [#170](https://github.com/mlr-org/mlr/issues/170)
+20 | Submodel approaches | [#298](https://github.com/mlr-org/mlr/issues/298)
+21 | Imbalanced and cost sensitive multiclass modeling | [#821](https://github.com/mlr-org/mlr/issues/821)
+22 | Interaction detection methods | None
+23 | Plotting undirected graph | None
+24 | Plotting bar chart | None
