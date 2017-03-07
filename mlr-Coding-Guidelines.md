@@ -19,7 +19,7 @@ We use a git “gatekeeper” workflow model, where every code change to the mas
   - Code readable, commented and follows [style guide](https://github.com/tudo-r/PackagesInfo/wiki/R-Style-Guide)?
   - Is it an API change? Has the documentation at **all** relevant places been adapted? This includes the tutorial.
   - **The old API cannot be changed so existing client code breaks**. Sometimes such a change is unavoidable and preferable to improve the structure and the exported names of the package. Then use the “deprecate” mechanism explained below.
-  - Make sure that no document files (*.rd), NAMESPACE and DESCRIPTION file(s) are changed, as they will be updated automatically.
+  - Make sure that no document files (*.rd), NAMESPACE file(s) are changed, as they will be updated automatically.
   - Make sure that only files are changed that are related to the PR. It can happen from time to time that your editor will add/remove whitespaces or indentation automatically.
   - Make sure that no spelling errors are in the documentation. Run a spellchecker (in RStudio you can use F7) 
 
