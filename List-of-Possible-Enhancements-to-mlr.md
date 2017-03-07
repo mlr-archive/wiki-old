@@ -98,7 +98,7 @@ If you are a new developer, please first check out our [coding guidelines](https
 
 - These are ideas from the mlr community
 
- |      Idea     |   Ref Issue    |
+ Number |      Idea     |   Ref Issue    |
 :--|    :----------:  |:----------:
 1 | Making a super learner from base learners applied to different parts of the data | [#153](https://github.com/mlr-org/mlr/issues/153)
 2 | Sparse matrix support | [#453](https://github.com/mlr-org/mlr/issues/471)
