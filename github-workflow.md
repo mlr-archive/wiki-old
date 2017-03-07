@@ -1,8 +1,9 @@
 # Tags
 For every issue assign one tag of each category:
-* **priority**: Low, Med, High, blocking
-* **effort**: simplefix, hardfix, no tag
-* **PRs**: work-in-progress, ready-for-merge, please-review
+* **priority**: [Low](https://github.com/mlr-org/mlr/labels/prio-low), [Medium](https://github.com/mlr-org/mlr/labels/prio-medium), [High](https://github.com/mlr-org/mlr/labels/prio-high), [blocking](https://github.com/mlr-org/mlr/labels/blocking)
+* **effort**: [simplefix](https://github.com/mlr-org/mlr/labels/simplefix), [hardfix](https://github.com/mlr-org/mlr/labels/hardfix), no tag
+* **Type**: [question](https://github.com/mlr-org/mlr/labels/question), [enhancement](https://github.com/mlr-org/mlr/labels/enhancement), [bug](https://github.com/mlr-org/mlr/labels/bug), [doc](https://github.com/mlr-org/mlr/labels/doc)
+* **PRs**: [work in progress](https://github.com/mlr-org/mlr/labels/work%20in%20progress%20-%20not%20done), [ready for merge](https://github.com/mlr-org/mlr/labels/ready%20for%20merge%20%28%3F%29), [please review](https://github.com/mlr-org/mlr/labels/please%20review)
 
 # Projects
 Try to always put Issues and PRs into their according Projects.
