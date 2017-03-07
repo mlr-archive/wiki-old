@@ -5,7 +5,8 @@ For every issue assign one tag of each category:
 * **Type**: [question](https://github.com/mlr-org/mlr/labels/type-question), [enhancement](https://github.com/mlr-org/mlr/labels/type-enhancement), [bug](https://github.com/mlr-org/mlr/labels/type-bug), [doc](https://github.com/mlr-org/mlr/labels/type-documentation)
 
 Each PR should be tagged with one of the following tags:
-* **PRs**: [work in progress](https://github.com/mlr-org/mlr/labels/work%20in%20progress%20-%20not%20done), [ready for merge](https://github.com/mlr-org/mlr/labels/ready%20for%20merge%20%28%3F%29), [please review](https://github.com/mlr-org/mlr/labels/please%20review)
+* **PR state**: [work in progress](https://github.com/mlr-org/mlr/labels/work%20in%20progress%20-%20not%20done), [ready for merge](https://github.com/mlr-org/mlr/labels/ready%20for%20merge%20%28%3F%29), [please review](https://github.com/mlr-org/mlr/labels/please%20review)
+* **priority**: [Low](https://github.com/mlr-org/mlr/pulls?q=is%3Aopen+is%3Apr+label%3Aprio-low), [Medium](https://github.com/mlr-org/mlr/pulls?q=is%3Aopen+is%3Apr+label%3Aprio-medium), [High](https://github.com/mlr-org/mlr/pulls?q=is%3Aopen+is%3Apr+label%3Aprio-high), [blocking](https://github.com/mlr-org/mlr/pulls?q=is%3Aopen+is%3Apr+label%3Aprio-blocking)
 
 # Projects
 Try to always put Issues and PRs into their according Projects.
