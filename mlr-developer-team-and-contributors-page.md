@@ -45,3 +45,6 @@ I am a graduate student at Georgia Tech with industry experience in machine lear
 
 ## [![Github Avatar](https://avatars3.githubusercontent.com/u/15329438?v=3&s=32)](https://github.com/QuayAu) Quay Au
 I am a PhD student at LMU Munich and member of the computational statistics working group. I implemented several multilabel algorithms.
+
+## [![Github Avatar](https://avatars0.githubusercontent.com/u/4238748?v=3&s=32)](https://github.com/juliastefanie) Julia Fried
+I am studying Data Science at the LMU Munich. I've created the mlr cheatsheet and added use cases to the mlr tutorial.
