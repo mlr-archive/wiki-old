@@ -51,3 +51,6 @@ I am studying Data Science at the LMU Munich. I've created the mlr cheatsheet an
 
 ## [![Github Avatar](https://avatars0.githubusercontent.com/u/26045602?v=3&s=40)](https://github.com/engelhardtk) Kira Engelhardt
 I am a Data Science student at LMU Munich. I designed the Cheatsheet and worked on the tutorial. 
+
+## Laura Beggel
+PhD Student at LMU Munich and Robert Bosch GmbH. I'm interested in functional data and time series data, especially classification and anomaly detection.
