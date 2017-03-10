@@ -124,4 +124,4 @@ If you are a new developer, please first check out our [coding guidelines](https
 22 | Interaction detection methods | None
 23 | Plotting undirected graph | None
 24 | Plotting bar chart | None
-   | ROC plots for multi-label classification | #641
+25 | ROC plots for multi-label classification | [#641](https://github.com/mlr-org/mlr/pull/641)
