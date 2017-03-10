@@ -48,3 +48,7 @@ I am a PhD student at LMU Munich and member of the computational statistics work
 
 ## Julia Fried
 I am studying Data Science at the LMU Munich. I've created the mlr cheatsheet and added use cases to the mlr tutorial.
+
+
+## [![Github Avatar](https://avatars3.githubusercontent.com/u/15329438?v=3&s=32)](https://github.com/engelhardtk) Kira Engelhardt
+I am a Data Science student at LMU Munich. I designed the Cheatsheet and worked on the tutorial. 
