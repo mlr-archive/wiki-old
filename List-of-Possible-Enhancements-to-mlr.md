@@ -125,3 +125,4 @@ If you are a new developer, please first check out our [coding guidelines](https
 23 | Plotting undirected graph | None
 24 | Plotting bar chart | None
 25 | ROC plots for multi-label classification | [#641](https://github.com/mlr-org/mlr/pull/641)
+26 | 3D plots | [#1161](https://github.com/mlr-org/mlr/pull/1161)
