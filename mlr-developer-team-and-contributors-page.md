@@ -53,4 +53,4 @@ I am studying Data Science at the LMU Munich. I've created the mlr cheatsheet an
 I am a Data Science student at LMU Munich. I designed the Cheatsheet and worked on the tutorial. 
 
 ## Laura Beggel
-PhD Student at LMU Munich and Robert Bosch GmbH. I'm interested in functional data and time series data, especially classification and anomaly detection.
+PhD Student at LMU Munich. I'm interested in functional data and time series data, especially classification and anomaly detection.
