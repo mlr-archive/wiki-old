@@ -12,6 +12,10 @@ If you are a new developer, please first check out our [coding guidelines](https
 
    |      Number     |   Package       |                     Method                            | Description |
 :--|  :----------:   |   :---------:   |                :-----------------:                    |   :------:  |
+
+
+
+
 1  |        adaptDA   |        amdai   |                         Adaptive Mixture Discriminant Analysis   |  |
 2  |            arm   |     bayesglm   |                              Bayesian Generalized Linear Model   |            |
 3  |          binda   |        binda   |                                   Binary Discriminant Analysis   |            |
