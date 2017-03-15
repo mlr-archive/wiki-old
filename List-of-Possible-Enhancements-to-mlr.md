@@ -10,9 +10,13 @@ If you are a new developer, please first check out our [coding guidelines](https
 
 - Check out the tutorial guide for [custom learners](http://mlr-org.github.io/mlr-tutorial/devel/html/create_learner/index.html) for guidance
 
-   |      Number     |   Package       |                     Method                            | Description ||
-:--|  :----------:   |   :---------:   |                :-----------------:                    | :------: |
-1  |        adaptDA   |        amdai   |                         Adaptive Mixture Discriminant Analysis   |            |
+   |      Number     |   Package       |                     Method                            | Description |
+:--|  :----------:   |   :---------:   |                :-----------------:                    |   :------:  |
+1  |        adaptDA   |        amdai   |                         Adaptive Mixture Discriminant Analysis   |   
+
+
+
+         |
 2  |            arm   |     bayesglm   |                              Bayesian Generalized Linear Model   |            |
 3  |          binda   |        binda   |                                   Binary Discriminant Analysis   |            |
 4  |     bnclassify   |         awnb   |                Naive Bayes Classifier with Attribute Weighting   |            |
