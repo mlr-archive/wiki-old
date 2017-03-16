@@ -124,6 +124,32 @@ git merge master
 ```
 Now all changes from the *master* will be in your current branch.
 
+
+### Merging the *master* in you branch
+This happens quite often and is mostly done wrong. Here is one way to do it correctly:
+
+Firstly, we build the NAMESPACE and Documentation Files automatically on the master branch, which means that if you pull the master branch you have the latest version of the NAMESPACE and all .Rd Files (which are most likely not up to date on your branch, as you shouldn't add/commit any of these).
+
+If you merge the master in your branch all of these files will appear as modified ("green" in git status). You can just commit these as they are identical on the master and will not change the PR. 
+BUT(!!!): This is only the case if you don't have any modified files in your branch before(!) you merge the master. Otherwise strange stuff can and will happen.
+
+General workflow:
+
+- git checkout master
+- git pull 
+- git checkout YOURBRANCH
+- git add XXX
+- git commit -m "stuff" # commit everything you need from your branch, everthing else should be deleted
+- git reset HEAD --hard #This removes/deletes all uncommited files, make sure to add+commit everything you want to keep
+- rm XXX # remove all files that are untracked as they might give you mergeconflicts
+- git merge master
+- (potentially resolve merge conflicts -> use a tool for that -> http://meldmerge.org/)
+- git commit -m "resolved mergeconflicts | merged master"
+- git push origin YOURBRANCH
+
+If all of that was already clear for you: great :)
+Also if you have a slightly different workflow (e.g. use git clean) that works the same way, keep doing that. Above is just how I tend to do it.
+
 ## Testing
 
 mlr has a lot of tests for all sorts of functionality. Unfortunately, this makes it quite hard to run as a lot of packages need to be installed for everything to pass. There are several ways to run the tests locally:
