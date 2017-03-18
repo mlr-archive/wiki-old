@@ -29,13 +29,13 @@ Read those if you are new to the project.
 - Use a proper editor for programming. Like vim, emacs, sublime, RStudio.
 - Read and follow the [style guide](https://github.com/tudo-r/PackagesInfo/wiki/R-Style-Guide). Yes, really. Bernd hates cleaning up such stuff behind others. If you use RStudio, these settings will help:
   - Whitespace after, e.g., `if` and `for` can be automatically identified in RStudio: \
-[Tools -> Global Options... -> Code -> Diagnostics](https://support.rstudio.com/hc/en-us/articles/205753617-Code-Diagnostics?version=1.0.136&mode=desktop) \
+[*Tools -> Global Options... -> Code -> Diagnostics*](https://support.rstudio.com/hc/en-us/articles/205753617-Code-Diagnostics?version=1.0.136&mode=desktop) \
 and activate "Show diagnostics for R" and "Provide R style diagnostics (e.g. whitespace)".
   - For proper indentation go to: \
-Tools -> Global Options... -> Code -> Editing \
+*Tools -> Global Options... -> Code -> Editing* \
 and deactivate "Vertically align arguments in auto-indent".
-  - To automatically remove whitespace go to: \ 
-Tools -> Global Options... -> Code -> Saving \
+  - To automatically remove whitespace go to: \
+*Tools -> Global Options... -> Code -> Saving* \
 and activate "Ensure that source files end with newline" and "Strip trailing horizontal whitespace when saving".
 - Whatever you implement, you will document in roxygen. Look at other functions to see how this works. Input / Output? What happens in the method? Mention really important details? Like "@family", dislike "@seealso". In summary: Be brief, but precise and helpful to the user!
 - Every longer, more complex operation get commented properly in code. See style guide.
@@ -54,7 +54,7 @@ and activate "Ensure that source files end with newline" and "Strip trailing hor
   - Deprecate the old code, use [`.Deprecated()`](https://stat.ethz.ch/R-manual/R-devel/library/base/html/Deprecated.html) at the beginning of the deprecated method. This only outputs a warning, it doesn’t automatically call the new function.
   - Carefully explain what you did so we can add that information to NEWS.
 - Reference functions in package that are in suggests using `::`, e.g., `package::function`, but do not explicitly reference functions in packages that are imported.
-- Please use a spellchecker, especially for documentation. In rstudio you can start a spellcheck with F7.              
+- Please use a spellchecker, especially for documentation. In RStudio you can start a spellcheck with F7.              
 
 Setup & Contribution Guidelines
 =========
