@@ -27,7 +27,7 @@ We use a git “gatekeeper” workflow model, where every code change to the mas
 
 Read those if you are new to the project.
 - Use a proper editor for programming. Like vim, emacs, sublime, RStudio.
-- Read and follow the [style guide](https://github.com/tudo-r/PackagesInfo/wiki/R-Style-Guide). Yes, really. Bernd hates cleaning up such stuff behind others. If you use RStudio, these settings will help:
+- Read and follow the [style guide](https://github.com/tudo-r/PackagesInfo/wiki/R-Style-Guide). Yes, really. Bernd hates cleaning up such stuff behind others. On Linux / Mac you can use the `quicklint` script in the `thirdparty` directory to check your changes before you submit them. If you use RStudio, these settings will help:
   - Whitespace after, e.g., `if` and `for` can be automatically identified in RStudio: \
 [*Tools -> Global Options... -> Code -> Diagnostics*](https://support.rstudio.com/hc/en-us/articles/205753617-Code-Diagnostics?version=1.0.136&mode=desktop) \
 and activate "Show diagnostics for R" and "Provide R style diagnostics (e.g. whitespace)".
