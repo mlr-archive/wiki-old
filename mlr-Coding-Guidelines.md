@@ -38,7 +38,7 @@ and deactivate "Vertically align arguments in auto-indent".
 *Tools -> Global Options... -> Code -> Saving* \
 and activate "Ensure that source files end with newline" and "Strip trailing horizontal whitespace when saving".
   - Check also the Options in \
-*Tools -> Project Options... -> Code Editing*
+*Tools -> Project Options... -> Code Editing* \
 and activate "Ensure that source files end with newline" and "Strip trailing horizontal whitespace when saving".
 - Whatever you implement, you will document in roxygen. Look at other functions to see how this works. Input / Output? What happens in the method? Mention really important details? Like "@family", dislike "@seealso". In summary: Be brief, but precise and helpful to the user!
 - Every longer, more complex operation get commented properly in code. See style guide.
