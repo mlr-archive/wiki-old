@@ -92,7 +92,8 @@ If you are a new developer, please first check out our [coding guidelines](https
 78 |           sprm   |        sprms   |                             Sparse partial robust M regression   |            |
 79 |           sprm   |        prmda   |                           Robust PLS for binary classification   |            |
 80 |           sprm   |       sprmda   |                Sparse and robust PLS for binary classification   |            |
-81 |           vbmp   |   vbmpRadial   |             Variational Bayesian Multinomial Probit Regression   |            
+81 |           vbmp   |   vbmpRadial   |             Variational Bayesian Multinomial Probit Regression   |            |
+82 |         LightGBM |      LightGBM  | [Gradient Boosting with tree based learners](https://github.com/Microsoft/LightGBM) |
 
 
 
