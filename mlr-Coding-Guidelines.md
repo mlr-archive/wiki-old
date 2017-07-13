@@ -169,6 +169,8 @@ mlr has a lot of tests for all sorts of functionality. Unfortunately, this makes
 - Use `devtools::test` with a filter, for example `devtools::test(filter = "ModelMultiplexer")` to check a particular file and later, when that runs, check whether your code affected other parts of mlr run the test group "base": `devtools::test(filter = "base")`. There are more tests, but the main functionality is covered by the "base" group.
 - You can also run tests from the command line, with a fully installed development version of mlr. You can use the [rt tool](https://github.com/rdatsci/rt) for this, for example `rtest --filter=ModelMultiplexer` or `rtest --filter=base`.
 
+If you want to run certain tests from `tests/testthat` line-by-line for debugging purposes, make sure that you have package `BBmisc` loaded. Otherwise, certain helper function will not be found. Also, optionally source the helper file `tests/testthat/helper_objects`. This file initiates data which is used in some tests, e.g. `classif_binomial`. 
+
 To make really sure, we run Travis CI for every commit and pull request. This is your safety net that will check everything for you, so don't worry if you absolutely cannot get something to work on your machine!
 
 ## Contributing
