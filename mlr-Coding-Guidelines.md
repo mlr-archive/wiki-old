@@ -16,7 +16,7 @@ We use a git “gatekeeper” workflow model, where every code change to the mas
   - Did you use the appropriate functions for argument checking (some provided by mlr `check*`, others by the checkmate package).
   - mlr provides many functions to get information from its objects. Please use those instead of `$`.
   - NEWS: Is it an API / behavior change w.r.t. to the prior version? Mention what should be in NEWS in the pull request please, the person who merges the PR will put this in NEWS. Please don't modify NEWS directly as this tends to cause merge conflicts.
-  - Code readable, commented and follows [style guide](https://github.com/tudo-r/PackagesInfo/wiki/R-Style-Guide)?
+  - Code readable, commented and follows [style guide](https://github.com/rdatsci/PackagesInfo/wiki/R-Style-Guide)?
   - Is it an API change? Has the documentation at **all** relevant places been adapted? This includes the tutorial.
   - **The old API cannot be changed so existing client code breaks**. Sometimes such a change is unavoidable and preferable to improve the structure and the exported names of the package. Then use the “deprecate” mechanism explained below.
   - Make sure that no document files (*.rd), NAMESPACE file(s) are changed, as they will be updated automatically.
@@ -27,7 +27,7 @@ We use a git “gatekeeper” workflow model, where every code change to the mas
 
 Read those if you are new to the project.
 - Use a proper editor for programming. Like vim, emacs, sublime, RStudio.
-- Read and follow the [style guide](https://github.com/tudo-r/PackagesInfo/wiki/R-Style-Guide). Yes, really. Bernd hates cleaning up such stuff behind others. On Linux / Mac you can use the `quicklint` script in the `thirdparty` directory to check your changes before you submit them. If you use RStudio, these settings will help:
+- Read and follow the [style guide](https://github.com/rdatsci/PackagesInfo/wiki/R-Style-Guide). Yes, really. Bernd hates cleaning up such stuff behind others. On Linux / Mac you can use the `quicklint` script in the `thirdparty` directory to check your changes before you submit them. If you use RStudio, these settings will help:
   - Whitespace after, e.g., `if` and `for` can be automatically identified in RStudio: \
 [*Tools -> Global Options... -> Code -> Diagnostics*](https://support.rstudio.com/hc/en-us/articles/205753617-Code-Diagnostics?version=1.0.136&mode=desktop) \
 and activate "Show diagnostics for R" and "Provide R style diagnostics (e.g. whitespace)".
