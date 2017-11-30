@@ -51,3 +51,6 @@ I am studying Data Science at the LMU Munich. I've created the mlr cheatsheet an
 
 ## [![Github Avatar](https://avatars0.githubusercontent.com/u/26045602?v=3&s=40)](https://github.com/engelhardtk) Kira Engelhardt
 I am a Data Science student at LMU Munich. I designed the Cheatsheet and worked on the tutorial. 
+
+## [![Github Avatar](https://avatars0.githubusercontent.com/u/8430564?v=3&s=40)](https://github.com/pat-s) Patrick Schratz
+PhD Student at Friedrich-Schiller-University Jena. Environmental modeling with a focus on spatial data handling. I implemented the possibility to use spatially disjoint subsets in cross-validation settings including the corresponding tutorial section "Handling of Spatial Data".  
