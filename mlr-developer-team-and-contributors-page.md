@@ -38,7 +38,7 @@ PhD Student at IBE, LMU Munich. Implemented (parts of) the multilabel classifica
 PhD Student at LMU Munich and member of the computational statistics working group. I'm interested in variable selection and hyperparameter tuning, especially for gradient boosting. I work on variable importance, tuning and  preprocessing wrappers.
 
 ## [![Github Avatar](https://avatars3.githubusercontent.com/u/18633953?v=3&s=40)](https://github.com/bhvieira) Bruno Hebling Vieira
-BSc in Medical Physics and currently pursuing a MSc in Physics Applied to Medicine and Biology from the University of São Paulo (USP). I'm committed to add new useful measures and learners to mlr.
+MSc in Physics Applied to Medicine and Biology and BSc in Medical Physics, currently pursuing a DSc also from the University of São Paulo (USP). I'm committed to add new useful measures and learners to mlr.
 
 ## [![Github Avatar](https://avatars2.githubusercontent.com/u/4913951?v=3&s=32)](https://github.com/MasonGallo) Mason Gallo
 I am a graduate student at Georgia Tech with industry experience in machine learning. I implemented hyperparameter tuning visualization, and I also work on various parts of mlr along with the tutorial.
