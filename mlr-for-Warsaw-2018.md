@@ -3,6 +3,9 @@ Dear Warsaw 2018 participates,
 on this page we provide you all workshop documents and further mlr related links.
 
 ## Workshop documentation
+* Talk
+* Demo
+* Data sets for demo
 
 ## Further links
 * Link to GitHub: https://github.com/mlr-org/mlr
