@@ -1,7 +1,3 @@
-Dear Warsaw 2018 participates,
-
-on this page we provide you all workshop documents and further mlr related links.
-
 ## Workshop documentation
 * [Talk]()
 * [Demo](https://github.com/mlr-org/mlr-outreach/raw/master/2018_04_Warsaw/demo.R)
