@@ -1,5 +1,5 @@
 ## Workshop documentation
-* [Talk]()
+* [Talk](https://github.com/mlr-org/mlr-outreach/raw/master/2018_04_Warsaw/talk.pdf)
 * [Demo](https://github.com/mlr-org/mlr-outreach/raw/master/2018_04_Warsaw/demo.R)
 * [Data set](https://github.com/mlr-org/mlr-outreach/raw/master/2018_04_Warsaw/data.rda)
 
