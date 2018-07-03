@@ -3,7 +3,8 @@
 1. Send a POST request to /job/:job_id/debug replacing the TOKEN and JOB_ID values below:
 
 ```bash
-#! /usr/bin/env bash  curl -s -X POST \
+#! /usr/bin/env bash  
+    curl -s -X POST \
    -H "Content-Type: application/json" \
    -H "Accept: application/json" \
    -H "Travis-API-Version: 3" \
