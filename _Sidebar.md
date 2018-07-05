@@ -1,6 +1,6 @@
 * [[Travis]]
-  * [[Travis build process]]
-  * [[Travis debug mode]]
+  * [[Travis build process|Travis#Travis-build-process]]
+  * [[Travis debug mode|Travis#travis-debug-mode]]
 * [[Developer Instructions]]
   * [[mlr Coding Guidelines]]
   * [[Build process hints and FAQ]]
