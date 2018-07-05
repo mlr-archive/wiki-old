@@ -13,6 +13,6 @@
   * [[Palermo workshop]]
   * [[mlr Warsaw 2018]]
 * [[Misc]]
-  * [[Publications that use mlr|Misc#Publications-that-use-mlr]]
-  * [[NEWS|Misc#NEWS]]
+  * [[Publications that use mlr|Misc#publications-that-use-mlr]]
+  * [[NEWS|Misc#news]]
   * [[mlr developer team and contributors page|Misc|mlr-developer-team-and-contributors-page]]
