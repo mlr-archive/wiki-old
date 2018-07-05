@@ -9,7 +9,7 @@
   * [[Learner]]
   * [[List of Possible Enhancements to mlr]]
 * [[mlr events/workshops]]
-  * [[useR 2015 tutorial]]
+  * [[useR 2015 tutorial|mlr-events/workshops#useR-2015-tutorial]]
   * [[Palermo workshop]]
   * [[mlr Warsaw 2018]]
 * [[Misc]]
