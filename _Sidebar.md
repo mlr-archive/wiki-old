@@ -15,4 +15,4 @@
 * [[Misc]]
   * [[Publications that use mlr|Misc#publications-that-use-mlr]]
   * [[NEWS|Misc#news]]
-  * [[mlr developer team and contributors page|Misc|mlr-developer-team-and-contributors-page]]
+  * [[mlr developer team and contributors page|Misc#mlr-developer-team-and-contributors-page]]
