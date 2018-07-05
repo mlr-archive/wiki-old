@@ -8,6 +8,7 @@
   * [[Visualization development guidelines|Developer-instructions#visualization-development-guidelines]]
   * [[Learner|Developer-instructions#learner]]
   * [[List of possible enhancements to mlr|Developer-instructions#list-of-possible-enhancements-to-mlr]]
+  * [[mlr tutorial|Developer-instructions#mlr-tutorial]]
 * [[mlr events/workshops]]
   * [[useR 2015 tutorial|mlr-events-workshops#useR-2015-tutorial]]
   * [[Palermo workshop|mlr-events-workshops#palermo-workshop]]
