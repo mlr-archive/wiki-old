@@ -479,3 +479,45 @@ If you are a new developer, please first check out our [coding guidelines](https
 24 | Plotting bar chart | None
 25 | ROC plots for multi-label classification | [#641](https://github.com/mlr-org/mlr/pull/641)
 26 | 3D plots | [#1161](https://github.com/mlr-org/mlr/pull/1161)
+
+# mlr tutorial
+
+## Logos
+
+The mlr logos are stored at the following locations:
+
+- `man/figures/logo_navbar.png`: Navbar + README logo (126x63 px)
+- `man/figures/logo.png`: Favicon for website in black (32x32 px)
+
+## Build instructions
+
+With the start of v2.13 we switched from mkdocs to pkgdown. With this change, all source files are now located in this repo under vignettes/tutorial.
+
+Modification of a tutorial section:
+
+If you want to modify/add a tutorial section, please follow these steps:
+
+Open the respective source file, e.g. task.Rmd.
+Follow the style guide while editing:
+Reference mlr functions as <function()>, e.g. makeLearner().
+Reference external functions as package::function(), e.g. kernlab::ksvm().
+Reference other tutorial pages with <name_of_vignette>.html, e.g. [bagging](bagging.html).
+Always start a new sentence with a new line.
+If you want to insert a paragraph, skip one line.
+The most up-level header starts with ### and is subsequently followed by #### and ##### etc.
+Always insert exactly one empty line before and after a code chunk, header, figure or a table.
+Referencing images is a bit tricky since we need to ensure that they look good in both the HTML and PDF version. Put your image into vignettes/tutorial/devel/pdf/img/ and see the examples in resampling.Rmd, nested_resampling.Rmd or handling_of_spatial_data.Rmd.
+Make sure that the .Rmd file is working on its own, i.e. compile it as a single file (preferably using build_article("tutorial/devel/<vignette-name>")) and see if everything works. Put required packages in the setup chunk at the beginning of the tutorial.
+Rendering the tutorial locally:
+
+If you want to view the complete pkgdown site locally, run pkgdown::build_site(lazy = TRUE). You don't have to render the complete site every time you change one tutorial. The lazy = TRUE argument ensures that only pages are rebuilt that have changed. Also, if you have built the whole site once, you can just build the vignettes again by using build_articles(lazy = TRUE). More specific, if you are working on one vignette, you can run build_article("tutorial/devel/<vignette-name>"). You do not need to pass the .Rmd extension when using build_article().
+
+Important: Do not commit any file in docs/ as the rendering will be done by Travis!
+
+Adding a new section:
+
+Edit _pkgdown.yml and add the new section at the appropriate place.
+
+Issues and Pull Requests:
+
+If you want to open an issue or pull request that is related to mlr-tutorial, label it with tutorial and mention jakob-r or pat-s if you need help.
