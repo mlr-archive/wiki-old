@@ -1,7 +1,7 @@
 * [[Travis]]
   * [[Travis build process|Travis#Travis-build-process]]
   * [[Travis debug mode|Travis#travis-debug-mode]]
-* [[Developer Instructions]]
+* [[Developer instructions]]
   * [[mlr coding guidelines|Developer-instructions#mlr-coding-guidelines]]
   * [[Build process hints and FAQ|Developer-instructions#build-process-hints-and-faq]]
   * [[Github workflow|Developer-instructions#github-workflow]]
