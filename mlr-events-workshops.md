@@ -127,3 +127,8 @@ top10 workhop
 * [Link to GitHub](https://github.com/mlr-org/mlr)
 * [mlr cheatsheet](https://github.com/mlr-org/mlr-tutorial/raw/gh-pages/cheatsheet/MlrCheatsheet.pdf)
 * [Detailed Tutoiral](https://mlr-org.github.io/mlr/)
+
+# mlr @ WhyR?2018 conference
+
+* [Link to Blogpost](http://mlr-org.github.io/whyr-conference)
+* [Link to Talks](https://github.com/mlr-org/mlr-outreach/tree/master/2018_07_wroclaw)
