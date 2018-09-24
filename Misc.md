@@ -117,6 +117,11 @@ PhD Student at Friedrich-Schiller-University Jena. Environmental modeling with a
 
 # NEWS
 
+mlr 2.14
+
+## learners -- new
+* `{classif,regr}.liquidSVM`
+
 mlr 2.13
 
 ## general
