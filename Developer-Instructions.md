@@ -164,6 +164,19 @@ General workflow:
 If all of that was already clear for you: great :)
 Also if you have a slightly different workflow (e.g. use git clean) that works the same way, keep doing that. Above is just how I tend to do it.
 
+## Updating docs/ in a PR
+
+If the tutorial was updated in docs/ in the `master` branch, do the following:
+
+1. git checkout master
+2. git pull master
+3. git checkout <your-branch>
+4. git checkout master -- docs/
+
+This will **reset** the `docs/` directory in your branch with the state of the `master` branch. 
+Be careful if you made changes to the tutorial yourself, these will be overwritten as well!
+In this case you might want to use a normal `git merge` instead of a hard reset.
+
 ## Testing
 
 mlr has a lot of tests for all sorts of functionality. Unfortunately, this makes it quite hard to run as a lot of packages need to be installed for everything to pass. There are several ways to run the tests locally:
