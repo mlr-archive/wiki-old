@@ -1,1 +1,1 @@
-We have currently a relatively small WIKI, but a rather [large tutorial](https://mlr-org.github.io/mlr) ;-)
+Our Wiki lives on [Notion](https://www.notion.so/mlr-Wiki-7eb88a684e6a4e3abc26208d05e03fa0).
